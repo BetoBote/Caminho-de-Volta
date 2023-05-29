@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
         {
             pode_pular = false;
             qtd_Pulo++;
-            if(qtd_Pulo <= 2)
+            if(qtd_Pulo <= 1)
             {
                 AcaoPulo();
             }
