@@ -10,6 +10,7 @@ TagManager:
   - AtaqueInimigo
   - PoteVida
   - Pisavel
+  - Inimigo
   layers:
   - Default
   - TransparentFX

@@ -10,6 +10,10 @@ public class Player : MonoBehaviour
     public int qtd_Pulo = 0;
     private float meuTempoPulo = 0;
     public bool pode_pular = true;
+    public int vida = 3;
+    private bool pode_dano = true;
+    private float meuTempoDano = 0;
+
 
     void Start()
     {
@@ -22,6 +26,7 @@ public class Player : MonoBehaviour
         Mover();
         Pular();
         Apontar();
+        Dano();
     }
 
     void Mover()
@@ -83,5 +88,36 @@ public class Player : MonoBehaviour
             pode_pular = true;
             meuTempoPulo = 0;
         }
-    } 
+    }
+
+    void Dano()
+    {
+        if(pode_dano == false)
+        {
+            TemporizadorDano();
+        }
+    }
+    void OnCollisionEnter2D(Collision2D colisao)
+    {
+        if(colisao.gameObject.tag == "Inimigo")
+        {
+            if(pode_dano == true)
+            {
+                ImagemPersonagem.color = UnityEngine.Color.red;
+                pode_dano = false;
+                vida--;
+            }
+            
+        }
+    }
+    void TemporizadorDano()
+    {
+        meuTempoDano += Time.deltaTime;
+        if (meuTempoDano > 0.5f)
+        {
+            pode_dano = true;
+            ImagemPersonagem.color = UnityEngine.Color.white;
+            meuTempoDano = 0;
+        }
+    }
 }
