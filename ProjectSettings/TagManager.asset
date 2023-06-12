@@ -10,6 +10,7 @@ TagManager:
   - Vagalume
   - Vagalume_texto_tag
   - Bolinha_De_Gude_tag
+  - Damage
   layers:
   - Default
   - TransparentFX

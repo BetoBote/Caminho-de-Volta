@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2075da694ca42734991c364532cd11d6
+guid: 0758132bde1f8ee40b5781b42a8a768f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,589 +117,547 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 900
-        width: 360
-        height: 644
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1a7f5b980570014f9f80d1852db37e4
-      internalID: 1029815308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_1
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 916
-        width: 345
-        height: 628
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55560990f28b62d47a45b091eb1dd077
-      internalID: 199573619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_2
-      rect:
-        serializedVersion: 2
-        x: 1247
-        y: 908
-        width: 345
-        height: 636
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2efd674d61a31114cbe0da0384641cae
-      internalID: 316917640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_3
-      rect:
-        serializedVersion: 2
-        x: 1872
-        y: 908
-        width: 346
-        height: 636
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2955916bdf8379a458906f1855533634
-      internalID: -1038776189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_4
-      rect:
-        serializedVersion: 2
-        x: 2450
-        y: 908
-        width: 349
-        height: 636
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec211983c9b16ee4bb1c48f176a13a32
-      internalID: -1109679774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_5
-      rect:
-        serializedVersion: 2
-        x: 3076
-        y: 908
-        width: 345
-        height: 636
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a282d4a21a6013a4eaebecb1d9f6f230
-      internalID: -825267224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_6
-      rect:
-        serializedVersion: 2
-        x: 3710
-        y: 908
-        width: 345
-        height: 636
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69eab18b37c6dbf449c80a7231e9a8f4
-      internalID: 58237930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_7
-      rect:
-        serializedVersion: 2
-        x: 4332
-        y: 908
-        width: 345
-        height: 636
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 874d7d68a6ef5d0418d3dd6ddc70e7da
-      internalID: -686318974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_8
-      rect:
-        serializedVersion: 2
-        x: 4929
-        y: 908
-        width: 346
-        height: 636
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 485a2dfca598e0e4785474af9c312f4b
-      internalID: 884011796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_9
-      rect:
-        serializedVersion: 2
-        x: 5564
-        y: 908
-        width: 341
-        height: 636
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d3387199770ef44baad4c92178d3f1a
-      internalID: -1039379640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_10
-      rect:
-        serializedVersion: 2
-        x: 6149
-        y: 908
-        width: 345
-        height: 636
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cc77aa154b7c6e40a15642742b5d5fd
-      internalID: -988206710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_11
-      rect:
-        serializedVersion: 2
-        x: 6767
-        y: 908
-        width: 341
-        height: 636
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2599f43f2d22314f82a9f3187783252
-      internalID: -1951963569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_12
-      rect:
-        serializedVersion: 2
-        x: 7356
-        y: 908
-        width: 350
-        height: 636
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40b6206e350850d4b8651b91387b4383
-      internalID: 1770352627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_13
-      rect:
-        serializedVersion: 2
-        x: 7983
-        y: 908
-        width: 343
-        height: 636
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a18fef5b15cb8cb41be5ce0657e14dc8
-      internalID: 1855178347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_14
+      name: Boneco_Plataforma_Pulando_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 339
-        height: 637
-      alignment: 6
+        width: 302
+        height: 645
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05b2eff48cf962c40a53b46c35bba486
-      internalID: 141826091
+      spriteID: 33710101e2c5a7942809892104e63270
+      internalID: -960517509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_15
+      name: Boneco_Plataforma_Pulando_1
       rect:
         serializedVersion: 2
-        x: 612
-        y: 0
-        width: 345
-        height: 636
-      alignment: 6
+        x: 516
+        y: 3
+        width: 306
+        height: 633
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c45f2b0694b7ae4a873e831ce196da0
-      internalID: 6742736
+      spriteID: 5a2f4c3427dcbd7439052326b71255f3
+      internalID: 243406703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_16
+      name: Boneco_Plataforma_Pulando_2
       rect:
         serializedVersion: 2
-        x: 1246
-        y: 0
-        width: 346
-        height: 632
-      alignment: 6
+        x: 1040
+        y: 3
+        width: 306
+        height: 627
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1ebab2d39093624bac1b45d21b7e937
-      internalID: 976523709
+      spriteID: d5d19771276de0049ac86a40579ef06f
+      internalID: -1271571749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_17
+      name: Boneco_Plataforma_Pulando_3
       rect:
         serializedVersion: 2
-        x: 1868
-        y: 0
-        width: 350
-        height: 628
-      alignment: 6
+        x: 1546
+        y: 3
+        width: 324
+        height: 615
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82656aab03b2b33498c572f7dd429753
-      internalID: -1489997248
+      spriteID: 37e16889e32f23c4180a5836a619585e
+      internalID: 214656814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_18
+      name: Boneco_Plataforma_Pulando_4
       rect:
         serializedVersion: 2
-        x: 2449
-        y: 0
-        width: 350
-        height: 624
-      alignment: 6
+        x: 2088
+        y: 3
+        width: 330
+        height: 609
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5a7db66913b0f343967620999565951
-      internalID: -1806617639
+      spriteID: 356e1d9babd78cc4c87447231a2c8af2
+      internalID: 1680922944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_19
+      name: Boneco_Plataforma_Pulando_5
       rect:
         serializedVersion: 2
-        x: 3071
-        y: 0
-        width: 350
-        height: 624
-      alignment: 6
+        x: 2589
+        y: 3
+        width: 324
+        height: 615
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a820fda3da5e98b4b8e107520914d4ec
-      internalID: -1961800616
+      spriteID: 43de71bf9ff680543bd53599281b13e7
+      internalID: -1057063808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_20
+      name: Boneco_Plataforma_Pulando_6
       rect:
         serializedVersion: 2
-        x: 3706
-        y: 0
-        width: 349
-        height: 620
-      alignment: 6
+        x: 3126
+        y: 3
+        width: 311
+        height: 627
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6e0bd67f6f162742ae7e735cd49d2f8
-      internalID: 1146451079
+      spriteID: e4588cc75112b2247a22b95b356ef3e0
+      internalID: -1765012365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_21
+      name: Boneco_Plataforma_Pulando_7
       rect:
         serializedVersion: 2
-        x: 4332
-        y: 0
-        width: 345
-        height: 624
-      alignment: 6
+        x: 3650
+        y: 9
+        width: 306
+        height: 627
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a167da0109d4b41488523537c08432b5
-      internalID: 744680742
+      spriteID: 430fbb7b57953364c9771ac5dbd00d08
+      internalID: -1152949328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_22
+      name: Boneco_Plataforma_Pulando_8
       rect:
         serializedVersion: 2
-        x: 4925
+        x: 4168
         y: 0
-        width: 350
-        height: 628
-      alignment: 6
+        width: 312
+        height: 645
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e65004980d9324b40b467dff1a5b4adc
-      internalID: 686890887
+      spriteID: 350c341e8f006274484c66642625f685
+      internalID: -1031527751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_23
+      name: Boneco_Plataforma_Pulando_9
       rect:
         serializedVersion: 2
-        x: 5559
+        x: 4687
         y: 0
-        width: 346
-        height: 628
-      alignment: 6
+        width: 300
+        height: 645
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71816111312174a4b80398738bbc105a
-      internalID: -327316849
+      spriteID: 462de7096a15357438c58183f9a68d2f
+      internalID: -81714454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_24
+      name: Boneco_Plataforma_Pulando_10
       rect:
         serializedVersion: 2
-        x: 6145
-        y: 0
-        width: 349
-        height: 632
-      alignment: 6
+        x: 5223
+        y: 21
+        width: 276
+        height: 621
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da8d622e060f8c44fad6f48d55d49669
-      internalID: 2070119079
+      spriteID: 28b328b4c56fa4b479cf0eea1633b86e
+      internalID: 393903396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_25
+      name: Boneco_Plataforma_Pulando_11
       rect:
         serializedVersion: 2
-        x: 6755
-        y: 0
-        width: 353
-        height: 632
-      alignment: 6
+        x: 5741
+        y: 33
+        width: 277
+        height: 609
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48969d664b2b1e04caae351f0bede8d5
-      internalID: -175153908
+      spriteID: 985d9fb72002c024991e26e48dd683c7
+      internalID: -158220750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_26
+      name: Boneco_Plataforma_Pulando_12
       rect:
         serializedVersion: 2
-        x: 7356
-        y: 0
-        width: 350
-        height: 636
-      alignment: 6
+        x: 6148
+        y: 27
+        width: 276
+        height: 609
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54954a6c29c667c4d9c4970c87dfbaf1
-      internalID: -297421286
+      spriteID: 1485367997039c1409ccb18906aa0d46
+      internalID: 727203908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Correndo_27
+      name: Boneco_Plataforma_Pulando_13
       rect:
         serializedVersion: 2
-        x: 7982
-        y: 0
-        width: 344
-        height: 639
-      alignment: 6
+        x: 6554
+        y: 33
+        width: 265
+        height: 609
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8418075caf3f56c49a2fdce13aa5236f
-      internalID: 1028776324
+      spriteID: 0faf5c4045316a048a5d205972982257
+      internalID: 787833259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_14
+      rect:
+        serializedVersion: 2
+        x: 6931
+        y: 27
+        width: 265
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89e2fde7653b3c4798147a2dee08fc4
+      internalID: 652964325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_15
+      rect:
+        serializedVersion: 2
+        x: 7308
+        y: 21
+        width: 277
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb095cba48f6ee44b8be73cdfdb58c5d
+      internalID: 128609826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_16
+      rect:
+        serializedVersion: 2
+        x: 7773
+        y: 3
+        width: 277
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0585773f083730444b1a3bfbce7499fb
+      internalID: -1428715656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_17
+      rect:
+        serializedVersion: 2
+        x: 8268
+        y: 0
+        width: 295
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df65e98ff55888947a51b247cb8c3761
+      internalID: -1928437015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_18
+      rect:
+        serializedVersion: 2
+        x: 8763
+        y: 0
+        width: 295
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157240ec0d8947c42a34d66e321eda11
+      internalID: 1608114156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_19
+      rect:
+        serializedVersion: 2
+        x: 9276
+        y: 9
+        width: 288
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de65bb1a462fcf41b9479d15e599c5c
+      internalID: -1217011959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_20
+      rect:
+        serializedVersion: 2
+        x: 9677
+        y: 9
+        width: 294
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a748eefdbc6cf4495addae6c5aac97
+      internalID: 1565189705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_21
+      rect:
+        serializedVersion: 2
+        x: 10041
+        y: 9
+        width: 289
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1227c7975be0743b95254b545f5bc3
+      internalID: -865539086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_22
+      rect:
+        serializedVersion: 2
+        x: 10418
+        y: 15
+        width: 289
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e25dc52e3a32c4dbaf813ca05414b4
+      internalID: -1636317385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_23
+      rect:
+        serializedVersion: 2
+        x: 10796
+        y: 3
+        width: 276
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94f7a1907ecb364784f05dc52352367
+      internalID: -1054879940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_24
+      rect:
+        serializedVersion: 2
+        x: 11261
+        y: 9
+        width: 277
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf29cd5f88f02f3409909c5283a4a461
+      internalID: -379651924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_25
+      rect:
+        serializedVersion: 2
+        x: 11744
+        y: 0
+        width: 321
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91e511f63dd5804db1e86420b3894b8
+      internalID: -1270011303
       vertices: []
       indices: 
       edges: []
@@ -715,34 +673,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Boneco_Plataforma_Correndo_1: 199573619
-      Boneco_Plataforma_Correndo_9: -1039379640
-      Boneco_Plataforma_Correndo_0: 1029815308
-      Boneco_Plataforma_Correndo_20: 1146451079
-      Boneco_Plataforma_Correndo_26: -297421286
-      Boneco_Plataforma_Correndo_7: -686318974
-      Boneco_Plataforma_Correndo_25: -175153908
-      Boneco_Plataforma_Correndo_27: 1028776324
-      Boneco_Plataforma_Correndo_4: -1109679774
-      Boneco_Plataforma_Correndo_23: -327316849
-      Boneco_Plataforma_Correndo_13: 1855178347
-      Boneco_Plataforma_Correndo_3: -1038776189
-      Boneco_Plataforma_Correndo_12: 1770352627
-      Boneco_Plataforma_Correndo_21: 744680742
-      Boneco_Plataforma_Correndo_15: 6742736
-      Boneco_Plataforma_Correndo_18: -1806617639
-      Boneco_Plataforma_Correndo_19: -1961800616
-      Boneco_Plataforma_Correndo_2: 316917640
-      Boneco_Plataforma_Correndo_8: 884011796
-      Boneco_Plataforma_Correndo_6: 58237930
-      Boneco_Plataforma_Correndo_24: 2070119079
-      Boneco_Plataforma_Correndo_5: -825267224
-      Boneco_Plataforma_Correndo_17: -1489997248
-      Boneco_Plataforma_Correndo_11: -1951963569
-      Boneco_Plataforma_Correndo_10: -988206710
-      Boneco_Plataforma_Correndo_16: 976523709
-      Boneco_Plataforma_Correndo_22: 686890887
-      Boneco_Plataforma_Correndo_14: 141826091
+      Boneco_Plataforma_Pulando_17: -1928437015
+      Boneco_Plataforma_Pulando_20: 1565189705
+      Boneco_Plataforma_Pulando_11: -158220750
+      Boneco_Plataforma_Pulando_10: 393903396
+      Boneco_Plataforma_Pulando_16: -1428715656
+      Boneco_Plataforma_Pulando_2: -1271571749
+      Boneco_Plataforma_Pulando_19: -1217011959
+      Boneco_Plataforma_Pulando_24: -379651924
+      Boneco_Plataforma_Pulando_25: -1270011303
+      Boneco_Plataforma_Pulando_18: 1608114156
+      Boneco_Plataforma_Pulando_7: -1152949328
+      Boneco_Plataforma_Pulando_4: 1680922944
+      Boneco_Plataforma_Pulando_3: 214656814
+      Boneco_Plataforma_Pulando_8: -1031527751
+      Boneco_Plataforma_Pulando_1: 243406703
+      Boneco_Plataforma_Pulando_21: -865539086
+      Boneco_Plataforma_Pulando_13: 787833259
+      Boneco_Plataforma_Pulando_23: -1054879940
+      Boneco_Plataforma_Pulando_0: -960517509
+      Boneco_Plataforma_Pulando_15: 128609826
+      Boneco_Plataforma_Pulando_14: 652964325
+      Boneco_Plataforma_Pulando_5: -1057063808
+      Boneco_Plataforma_Pulando_9: -81714454
+      Boneco_Plataforma_Pulando_12: 727203908
+      Boneco_Plataforma_Pulando_6: -1765012365
+      Boneco_Plataforma_Pulando_22: -1636317385
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Inimigo : MonoBehaviour
 {
     private SpriteRenderer ImagemPersonagem;
-    public float velocidade = 1f;
+    public float velocidade = 0.1f;
     public float distInicial = -0.5f;
     public float distFinal = 2f;
 

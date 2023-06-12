@@ -36,7 +36,7 @@ public class Controlador : MonoBehaviour
     {
         TelaGameOver.SetActive(true);
     }
-   public void Reiniciar()
+    public void Reiniciar()
     {
         SceneManager.LoadScene(0);
     }

@@ -14,11 +14,13 @@ public class Esqueleto : MonoBehaviour
     public bool vendoJogador = false;
     public GameObject MeuAtk;
     public bool vivo = true;
+    private Gerenciador GJ;
 
     void Start()
     {
         Animacao = GetComponent<Animator>();
         Jogador = GameObject.FindGameObjectWithTag("Player");
+        GJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<Gerenciador>();
     }
 
     private void Update()
@@ -27,7 +29,13 @@ public class Esqueleto : MonoBehaviour
         {
             Intel();
         }
-        
+
+
+        if (GJ.EstadoDoJogo() == true)
+        {
+            Intel();
+        }
+
     }
 
     void Intel()
@@ -44,6 +52,7 @@ public class Esqueleto : MonoBehaviour
         }else if (Vector2.Distance(transform.position, Jogador.transform.position) > 2f)
         {
             vendoJogador = false;
+            
             Mover();
         }
     }

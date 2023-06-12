@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     public int vagalumes = 0;
     private Text Vagalume_text;
     private Text Bolinhas_text;
+    private Animator animacao;
     
     
 
@@ -33,7 +34,7 @@ public class Player : MonoBehaviour
     {
         GJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<Gerenciador>();
 
-
+        animacao = GetComponent<Animator>();
 
 
         Vagalume_text = GameObject.FindGameObjectWithTag("Vagalume_texto_tag").GetComponent<Text>();
@@ -59,8 +60,49 @@ public class Player : MonoBehaviour
     void Mover()
     {
         Velocidade = Input.GetAxis("Horizontal") * 4;
-        Corpo.velocity = new Vector2(Velocidade, Corpo.velocity.y);
+        float velFinal;
+        
+
+        
+
+        if(Velocidade != 0)
+        {
+            animacao.SetBool("Andando",true);
+        }
+        else 
+        {
+            animacao.SetBool("Andando",false);
+        }
+
+        if(Corpo.velocity.y > 1)
+        {
+            animacao.SetBool("Pulando", true);
+        }
+        if(Corpo.velocity.y < -2)
+        {
+            animacao.SetBool("Pulando", false);
+        }
+
+        
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            velFinal = Velocidade * 2;
+        }
+        else
+        {
+            velFinal = Velocidade;
+        }
+
+        Corpo.velocity = new Vector2(velFinal, Corpo.velocity.y);
+
+        
+       
+
+
+
     }
+
 
     void Apontar()
     {
@@ -73,6 +115,7 @@ public class Player : MonoBehaviour
         {
             ImagemPersonagem.flipX = true;
         }
+        
     }
     void Pular()
     {
@@ -138,6 +181,7 @@ public class Player : MonoBehaviour
             barraCoracao = barraCoracao - 1;
             imgbarraCoracao.sizeDelta = new Vector2(barraCoracao * 100, 100);
             TemporizadorDano();
+
         }
     }
     void OnCollisionEnter2D(Collision2D colisao)
@@ -146,10 +190,20 @@ public class Player : MonoBehaviour
         {
             if(pode_dano == true)
             {
-                ImagemPersonagem.color = UnityEngine.Color.red;
+                animacao.SetBool("Danificado", true);
+                
                 pode_dano = false;
                 vida--;
                 Dano();
+                
+
+
+
+
+            }
+            if(barraCoracao <= 0)
+            {
+                GJ.PersonagemMorreu();
             }
             
         }
@@ -159,15 +213,16 @@ public class Player : MonoBehaviour
         meuTempoDano += Time.deltaTime;
         if (meuTempoDano > 0.5f)
         {
+            animacao.SetBool("Danificado", false);
             pode_dano = true;
-            ImagemPersonagem.color = UnityEngine.Color.white;
+            
             meuTempoDano = 0;
-            if(vida <= 0)
-            {
-                Morrer();
-            }
+            
+            
         }
+
     }
+
     
     
 }
