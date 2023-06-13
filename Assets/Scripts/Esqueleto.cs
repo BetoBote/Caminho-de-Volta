@@ -15,17 +15,29 @@ public class Esqueleto : MonoBehaviour
     public GameObject MeuAtk;
     public bool vivo = true;
     private Gerenciador GJ;
+    public BoxCollider2D colliderAtk;
+    public BoxCollider2D collidercheckAtaque;
+    public Transform[] pointsToMove;
+    public int startPoint;
+    public float tempo = 0;
+
+    public GameObject atk; 
 
     void Start()
     {
         Animacao = GetComponent<Animator>();
         Jogador = GameObject.FindGameObjectWithTag("Player");
         GJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<Gerenciador>();
+
+        transform.position = pointsToMove[startPoint].transform.position;
     }
 
     private void Update()
     {
-        if(vivo == true)
+        tempo += Time.deltaTime;
+
+
+        if (vivo == true)
         {
             Intel();
         }
@@ -36,15 +48,45 @@ public class Esqueleto : MonoBehaviour
             Intel();
         }
 
+        if(startPoint == 0)
+        {
+            colliderAtk.offset = new Vector2(0.41f, 0.4f);
+            collidercheckAtaque.offset = new Vector2(0.41f, 0.4f);
+
+        }
+        else
+        {
+            colliderAtk.offset = new Vector2(0.41f, 0.4f);
+            collidercheckAtaque.offset = new Vector2(0.41f, 0.4f);
+        }
+
     }
 
     void Intel()
     {
-        if (Vector2.Distance(transform.position, Jogador.transform.position) <= 1.9f)
+        if (Vector2.Distance(transform.position, Jogador.transform.position) <= 1.9f )
         {
-            Debug.Log("CHAMOU ATAQUE");
-            Animacao.SetTrigger("Atacar");
-            
+
+
+
+          if (tempo > 3)
+            {
+                //  Debug.Log("CHAMOU ATAQUE");
+                Animacao.SetBool("Atacar", true);
+                atk.SetActive(true);
+                tempo = 0;
+            }
+
+          else if  (tempo > 0.5 && tempo <= 3 ) {
+                Animacao.SetBool("Atacar", false);
+                Animacao.SetBool("Andar", false);
+                atk.SetActive(false);
+
+               
+            }
+
+
+         
         }else if (Vector2.Distance(transform.position, Jogador.transform.position) <= 2f)
         {
             vendoJogador = true;
@@ -52,7 +94,9 @@ public class Esqueleto : MonoBehaviour
         }else if (Vector2.Distance(transform.position, Jogador.transform.position) > 2f)
         {
             vendoJogador = false;
-            
+            Animacao.SetBool("Atacar", false);
+            atk.SetActive(false);
+
             Mover();
         }
     }
@@ -84,6 +128,7 @@ public class Esqueleto : MonoBehaviour
                 frente = true;
             }
         }
+
     }
 
     private void OnTriggerStay2D(Collider2D colidiu)
@@ -103,6 +148,8 @@ public class Esqueleto : MonoBehaviour
             }
             
         }
+
+        
     }
 
     public void AcabouImunidade()

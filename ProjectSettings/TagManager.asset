@@ -11,6 +11,8 @@ TagManager:
   - Vagalume_texto_tag
   - Bolinha_De_Gude_tag
   - Damage
+  - Mola
+  - ataque
   layers:
   - Default
   - TransparentFX

@@ -144,7 +144,29 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D gatilho)
     {
-        if(gatilho.gameObject.tag == "Pisavel")
+        if (gatilho.gameObject.tag == "ataque")
+        {
+            if (pode_dano == true)
+            {
+                animacao.SetBool("Danificado", true);
+
+                pode_dano = false;
+                vida--;
+                Dano();
+
+
+
+
+
+            }
+            if (barraCoracao <= 0)
+            {
+                GJ.PersonagemMorreu();
+            }
+
+        }
+
+        if (gatilho.gameObject.tag == "Pisavel")
         {
             qtd_Pulo = 0;
             pode_pular = true;
@@ -185,8 +207,13 @@ public class Player : MonoBehaviour
 
         }
     }
+
+    
     void OnCollisionEnter2D(Collision2D colisao)
     {
+
+       
+
         if(colisao.gameObject.tag == "Inimigo")
         {
             if(pode_dano == true)
@@ -223,7 +250,13 @@ public class Player : MonoBehaviour
         }
 
     }
-
+    void ManagerCollision(GameObject coll)
+    {
+        if (coll.CompareTag("mola"))
+        {
+            Corpo.velocity = transform.up * 3f;
+        }
+    }
     
     
 }
