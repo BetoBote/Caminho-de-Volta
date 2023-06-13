@@ -82,8 +82,9 @@ public class Player : MonoBehaviour
         {
             animacao.SetBool("Pulando", false);
         }
-
         
+
+
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
