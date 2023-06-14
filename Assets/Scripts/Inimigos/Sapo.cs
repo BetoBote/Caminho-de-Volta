@@ -61,23 +61,14 @@ public class Sapo : MonoBehaviour
             {
                 //  Debug.Log("CHAMOU ATAQUE");
                 Animacao.SetBool("Atacar", true);
-                MeuAtk.SetActive(true);
+
                 tempo = 0;
             }
-
-          else if  (tempo > 0.29 && tempo <= 3 ) {
-                Animacao.SetBool("Atacar", false);
-               
-                MeuAtk.SetActive(false);
-
-               
-            }
-
         }
         else
         {
-           
-            
+            Animacao.SetBool("Atacar", false);
+
         }
         /*else if (Vector2.Distance(transform.position, Jogador.transform.position) <= 2f)
         {
