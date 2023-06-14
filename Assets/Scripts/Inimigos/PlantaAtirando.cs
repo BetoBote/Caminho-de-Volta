@@ -7,6 +7,7 @@ public class PlantaAtirando : MonoBehaviour
     public Rigidbody2D Tiro;
     public float velocityTiro;
     public Transform posDown;
+    
     public Transform posLeft;
 
     public float timeThrowTiro;
@@ -22,7 +23,7 @@ public class PlantaAtirando : MonoBehaviour
 
     IEnumerator DispararTiro()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
 
         Rigidbody2D clone;
         clone = Instantiate(Tiro, posDown.transform.position, posLeft.transform.rotation);

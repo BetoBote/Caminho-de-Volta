@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: f0d2a2754970b1d4c91572c1ef800a8f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 239
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e1b9493568c3c4e82cb3039a3633b3
+      internalID: -1022215776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 246
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad66397250440948a9352e5b6f9b347
+      internalID: -1973993870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_2
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 0
+        width: 247
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f751b3bfe46a34a8dd808fc1375cb5
+      internalID: -1190081708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_3
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 0
+        width: 241
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d6e2e376ab2f7439258c5dda2f5c9f
+      internalID: 2065440384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_4
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 0
+        width: 247
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99405b839d190434eaae96d69389e860
+      internalID: -1671434909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_5
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 0
+        width: 247
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94efb13bfdaef784eaeb57768bc4bb1d
+      internalID: 2011644516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_6
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 0
+        width: 241
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ba6c949ac17e847a5cb955310a0b53
+      internalID: 1664668621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_7
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 0
+        width: 246
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38310157d34f9743a44308c593c4232
+      internalID: -2286317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_8
+      rect:
+        serializedVersion: 2
+        x: 4254
+        y: 0
+        width: 247
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eadd6c41c87d874a996344952fcfd5a
+      internalID: 568759150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_9
+      rect:
+        serializedVersion: 2
+        x: 4791
+        y: 0
+        width: 247
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2092706745c7f48b97d26638c2474d
+      internalID: -1689728008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_10
+      rect:
+        serializedVersion: 2
+        x: 5334
+        y: 0
+        width: 246
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1de02e27f02cfe4d832076864946a40
+      internalID: -1378331335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_11
+      rect:
+        serializedVersion: 2
+        x: 5871
+        y: 0
+        width: 246
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edc8ef5942beda4e82afdb27dacbc32
+      internalID: 1560157542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_12
+      rect:
+        serializedVersion: 2
+        x: 6450
+        y: 0
+        width: 244
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6dd774c960c3e4ebf7780d06b3ac33
+      internalID: -65530742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_13
+      rect:
+        serializedVersion: 2
+        x: 6987
+        y: 0
+        width: 246
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caeb3c14429cd5f4e89e3a6f72d4f9dd
+      internalID: 1498723737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_14
+      rect:
+        serializedVersion: 2
+        x: 7497
+        y: 0
+        width: 247
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11c9e99ad30bd6449de3eb01b65143e
+      internalID: 1353448723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_15
+      rect:
+        serializedVersion: 2
+        x: 8044
+        y: 0
+        width: 252
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaad6286f2e60c448dd7b881d21a920
+      internalID: 1085568266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_16
+      rect:
+        serializedVersion: 2
+        x: 8570
+        y: 0
+        width: 258
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b65fa0d86bbda47a68c1eca1cf22fd
+      internalID: -45770647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_17
+      rect:
+        serializedVersion: 2
+        x: 9123
+        y: 0
+        width: 258
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3029ab3dd492043805e3948f5d6455
+      internalID: -714416304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_18
+      rect:
+        serializedVersion: 2
+        x: 9676
+        y: 0
+        width: 252
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca31df125401b744086824bd1703048f
+      internalID: -1793215344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_19
+      rect:
+        serializedVersion: 2
+        x: 10224
+        y: 0
+        width: 245
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3d19f98776d2a499e318e697a05c7f
+      internalID: -1898826169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAPO_COAXANDO_20
+      rect:
+        serializedVersion: 2
+        x: 10755
+        y: 0
+        width: 239
+        height: 222
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f65c1ac9e09fe41acee806e12323e2
+      internalID: 140224445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SAPO_COAXANDO_9: -1689728008
+      SAPO_COAXANDO_20: 140224445
+      SAPO_COAXANDO_5: 2011644516
+      SAPO_COAXANDO_13: 1498723737
+      SAPO_COAXANDO_19: -1898826169
+      SAPO_COAXANDO_16: -45770647
+      SAPO_COAXANDO_15: 1085568266
+      SAPO_COAXANDO_4: -1671434909
+      SAPO_COAXANDO_1: -1973993870
+      SAPO_COAXANDO_8: 568759150
+      SAPO_COAXANDO_17: -714416304
+      SAPO_COAXANDO_7: -2286317
+      SAPO_COAXANDO_3: 2065440384
+      SAPO_COAXANDO_0: -1022215776
+      SAPO_COAXANDO_12: -65530742
+      SAPO_COAXANDO_18: -1793215344
+      SAPO_COAXANDO_10: -1378331335
+      SAPO_COAXANDO_11: 1560157542
+      SAPO_COAXANDO_2: -1190081708
+      SAPO_COAXANDO_14: 1353448723
+      SAPO_COAXANDO_6: 1664668621
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

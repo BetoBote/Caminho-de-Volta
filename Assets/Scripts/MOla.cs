@@ -21,14 +21,14 @@ public class MOla : MonoBehaviour
     {
         if (colisao.gameObject.tag == "Player")
         {
-            animacao.SetBool("Mola", false);
+            animacao.SetBool("Mola", true);
         }
     }
     private void OnCollisionExit2D(Collision2D colisao)
     {
         if (colisao.gameObject.tag == "Player")
         {
-            animacao.SetBool("Mola", true);
+            animacao.SetBool("Mola", false);
         }
     }
 }

@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Esqueleto : MonoBehaviour
+public class Sapo : MonoBehaviour
 {
     public int hp = 4;
     public bool podeTomarDano = true;
     private Animator Animacao;
-    public float posInicial;
-    public float posFinal;
+    
+    
     public bool frente = true;
     private GameObject Jogador;
 
@@ -67,7 +67,7 @@ public class Esqueleto : MonoBehaviour
 
           else if  (tempo > 0.29 && tempo <= 3 ) {
                 Animacao.SetBool("Atacar", false);
-                Animacao.SetBool("Andar", false);
+               
                 MeuAtk.SetActive(false);
 
                
@@ -76,8 +76,8 @@ public class Esqueleto : MonoBehaviour
         }
         else
         {
-            Animacao.SetBool("Andar", true);
-            Mover();
+           
+            
         }
         /*else if (Vector2.Distance(transform.position, Jogador.transform.position) <= 2f)
         {
@@ -93,35 +93,9 @@ public class Esqueleto : MonoBehaviour
         }*/
     }
 
-    void Mover()
-    {
-        Animacao.SetBool("Andar", true);
-        if (frente == true)
-        {
-            //para Onde eu quero IR
-            Vector2 destino = new Vector2(posFinal, transform.position.y);
-            //Me deslocando
-            transform.position = Vector2.MoveTowards(transform.position, destino, 0.01f);
-            transform.localScale = new Vector3(1, 1, 1);
-            if(Vector2.Distance(transform.position, destino) < 0.2f)
-            {
-                frente = false;
-            }
-        }
-        if (frente == false)
-        {
-            //para Onde eu quero IR
-            Vector2 destino = new Vector2(posInicial, transform.position.y);
-            //Me deslocando
-            transform.position = Vector2.MoveTowards(transform.position, destino, 0.01f);
-            transform.localScale = new Vector3(-1, 1, 1);
-            if (Vector2.Distance(transform.position, destino) < 0.2f)
-            {
-                frente = true;
-            }
-        }
+    
 
-    }
+    
 
     private void OnTriggerStay2D(Collider2D colidiu)
     {
