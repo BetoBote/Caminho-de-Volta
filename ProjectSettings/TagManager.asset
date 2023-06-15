@@ -13,6 +13,8 @@ TagManager:
   - Damage
   - Mola
   - ataque
+  - PuloDuplo
+  - Espinho
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Tiro
   - 
   - 
   - 

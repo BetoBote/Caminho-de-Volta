@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public int qtd_Pulo = 0;
     private float meuTempoPulo = 0;
     public bool pode_pular = true;
+    public float puloMax = 1;
     public int vida = 3;
     private bool pode_dano = true;
     private float meuTempoDano = 0;
@@ -94,8 +95,13 @@ public class Player : MonoBehaviour
         {
             velFinal = Velocidade;
         }
+       float minhavelocidadey  = Corpo.velocity.y;
+        if(minhavelocidadey > 10)
+        {
+            minhavelocidadey = 10;
+        }
 
-        Corpo.velocity = new Vector2(velFinal, Corpo.velocity.y);
+        Corpo.velocity = new Vector2(velFinal, minhavelocidadey);
 
         
        
@@ -122,9 +128,16 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && pode_pular == true)
         {
-            pode_pular = false;
+            
+            
             qtd_Pulo++;
-            if(qtd_Pulo <= 1)
+            if(qtd_Pulo >= puloMax)
+            {
+                pode_pular = false;
+            }
+           
+            
+            if(qtd_Pulo <= puloMax)
             {
                 AcaoPulo();
             }
@@ -153,6 +166,7 @@ public class Player : MonoBehaviour
                 pode_dano = false;
                 vida--;
                 Dano();
+                puloMax = 1;
 
 
 
@@ -165,6 +179,13 @@ public class Player : MonoBehaviour
             }
 
         }
+        if(gatilho.gameObject.tag == "PuloDuplo")
+        {
+            puloMax = 2;
+            Destroy(gatilho.gameObject);
+            
+        }
+       
 
         if (gatilho.gameObject.tag == "Pisavel")
         {
@@ -223,6 +244,7 @@ public class Player : MonoBehaviour
                 pode_dano = false;
                 vida--;
                 Dano();
+                puloMax = 1;
                 
 
 
@@ -234,6 +256,10 @@ public class Player : MonoBehaviour
                 GJ.PersonagemMorreu();
             }
             
+        }
+        if(colisao.gameObject.tag == "Espinho")
+        {
+            GJ.PersonagemMorreu();
         }
     }
     void TemporizadorDano()

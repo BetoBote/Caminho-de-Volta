@@ -27,7 +27,15 @@ public class PlantaAtirando : MonoBehaviour
 
         Rigidbody2D clone;
         clone = Instantiate(Tiro, posDown.transform.position, posLeft.transform.rotation);
-        clone.velocity = transform.TransformDirection(Vector2.down * velocityTiro);
+        clone.velocity = transform.TransformDirection(Vector2.down * 6);
+        Rigidbody2D clone2;
+        clone2 = Instantiate(Tiro, posDown.transform.position, posLeft.transform.rotation);
+        clone2.velocity = transform.TransformDirection(Vector2.down * velocityTiro + Vector2.right * 3);
+        Rigidbody2D clone3;
+        clone3 = Instantiate(Tiro, posDown.transform.position, posLeft.transform.rotation);
+        clone3.velocity = transform.TransformDirection(Vector2.down * velocityTiro + Vector2.right * -1 * 3);
+
+
     }
 
     // Update is called once per frame
