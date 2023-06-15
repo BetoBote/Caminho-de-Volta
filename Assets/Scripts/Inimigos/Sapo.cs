@@ -61,7 +61,6 @@ public class Sapo : MonoBehaviour
             {
                 //  Debug.Log("CHAMOU ATAQUE");
                 Animacao.SetBool("Atacar", true);
-
                 tempo = 0;
             }
         }

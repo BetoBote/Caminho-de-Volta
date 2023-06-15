@@ -269,7 +269,6 @@ public class Player : MonoBehaviour
         {
             animacao.SetBool("Danificado", false);
             pode_dano = true;
-            
             meuTempoDano = 0;
             
             

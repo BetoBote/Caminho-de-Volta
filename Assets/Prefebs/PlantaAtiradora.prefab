@@ -194,7 +194,7 @@ MonoBehaviour:
   velocityTiro: 5
   posDown: {fileID: 1349111805332685969}
   posLeft: {fileID: 1349111803302585533}
-  timeThrowTiro: 1.1
+  timeThrowTiro: 2
 --- !u!1 &1349111805332685970
 GameObject:
   m_ObjectHideFlags: 0

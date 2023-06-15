@@ -5,16 +5,29 @@ using UnityEngine;
 public class PlataformaCaindo : MonoBehaviour
 {
     public Rigidbody2D corpo;
-    private void OnTriggerEnter2D(Collider2D gatilho)
-    {
-        if(gatilho.gameObject.tag == "Player")
-        {
-            corpo.gravityScale = 0;
-        }
-    }
+    float quedaDelay = 2f;
+    
+    
     void Start()
     {
-        
+        corpo = GetComponent<Rigidbody2D>();
+    }
+    IEnumerable Cair()
+    {
+        yield return new WaitForSeconds(0.4f);
+        corpo.bodyType = RigidbodyType2D.Dynamic;
+        Destroy(gameObject, quedaDelay);
+    }
+    private void OnCollisionEnter2D(Collision2D colissao)
+    {
+        if(colissao.gameObject.tag == "Player")
+        {
+            StartCoroutine("Cair");
+        }
+        if(colissao.gameObject.tag == "Espinho")
+        {
+            Destroy(gameObject);
+        }
     }
 
     // Update is called once per frame

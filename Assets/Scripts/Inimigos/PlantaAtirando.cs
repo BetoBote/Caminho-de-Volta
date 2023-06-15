@@ -35,6 +35,10 @@ public class PlantaAtirando : MonoBehaviour
         clone3 = Instantiate(Tiro, posDown.transform.position, posLeft.transform.rotation);
         clone3.velocity = transform.TransformDirection(Vector2.down * velocityTiro + Vector2.right * -1 * 3);
 
+        Destroy(clone.gameObject, 2f);
+        Destroy(clone2.gameObject, 2f);
+        Destroy(clone3.gameObject, 2f);
+
 
     }
 
