@@ -17,7 +17,10 @@ public class Gerenciador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(GameLigado == true)
+        {
+            Time.timeScale = 1;
+        }
     }
 
     public bool EstadoDoJogo()
