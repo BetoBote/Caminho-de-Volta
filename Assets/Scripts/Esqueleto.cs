@@ -12,6 +12,10 @@ public class Esqueleto : MonoBehaviour
     public bool frente = true;
     private GameObject Jogador;
 
+    bool canAtk = true;
+
+    public float atkCooldown;
+    float atkCounter;
 
     public bool vivo = true;
     private Gerenciador GJ;
@@ -54,31 +58,58 @@ public class Esqueleto : MonoBehaviour
         float distance = Vector2.Distance(transform.position, Jogador.transform.position);
 
         Debug.Log(distance);
-        if (distance <= distanceAtk )
+        if (distance <= distanceAtk)
         {
-
-          if (tempo > 3)
+            if (canAtk)
             {
-                //  Debug.Log("CHAMOU ATAQUE");
                 Animacao.SetBool("Atacar", true);
+                canAtk = false;
                 MeuAtk.SetActive(true);
                 tempo = 0;
             }
-
-          else if  (tempo > 0.29 && tempo <= 3 ) {
+            /*if (tempo > 1 && !canAtk)
+            {
+                  //  Debug.Log("CHAMOU ATAQUE");
+                  canAtk = true;
+                  Animacao.SetBool("Atacar", true);
+                  MeuAtk.SetActive(true);
+                  tempo = 0;
+            }*/
+            /*if (!canAtk)
+            {
+                atkCounter += Time.deltaTime;
                 Animacao.SetBool("Atacar", false);
-                Animacao.SetBool("Andar", false);
-                MeuAtk.SetActive(false);
-
-               
+                if (atkCounter >= atkCooldown)
+                {
+                    MeuAtk.SetActive(false);
+                    atkCounter = 0;
+                    canAtk = true;
+                }
             }
-
+            else {
+                
+                canAtk = false;
+            }*/
         }
         else
         {
             Animacao.SetBool("Andar", true);
+            Animacao.SetBool("Atacar", false);
+            MeuAtk.SetActive(false);
             Mover();
         }
+
+        if (!canAtk) 
+        {
+            atkCounter += Time.deltaTime;
+            if (atkCounter >= atkCooldown) 
+            {
+                atkCounter = 0;
+                canAtk = true;
+                MeuAtk.SetActive(false);
+            }
+        }
+
         /*else if (Vector2.Distance(transform.position, Jogador.transform.position) <= 2f)
         {
             vendoJogador = true;
