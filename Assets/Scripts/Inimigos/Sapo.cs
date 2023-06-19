@@ -53,7 +53,7 @@ public class Sapo : MonoBehaviour
     {
         float distance = Vector2.Distance(transform.position, Jogador.transform.position);
 
-        Debug.Log(distance);
+        //Debug.Log(distance);
         if (distance <= distanceAtk )
         {
 

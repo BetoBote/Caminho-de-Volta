@@ -21,6 +21,9 @@ public class Player : MonoBehaviour
     private Text Vagalume_text;
     private Text Bolinhas_text;
     private Animator animacao;
+    //public Vector3 posInicial;
+
+    private Vector3 Checkpoint;
     
     
 
@@ -40,6 +43,8 @@ public class Player : MonoBehaviour
 
         Vagalume_text = GameObject.FindGameObjectWithTag("Vagalume_texto_tag").GetComponent<Text>();
         Bolinhas_text = GameObject.FindGameObjectWithTag("Bolinha_De_Gude_tag").GetComponent<Text>();
+
+        //transform.position = posInicial;
     }
 
     // Update is called once per frame
@@ -181,8 +186,14 @@ public class Player : MonoBehaviour
             {
                 GJ.PersonagemMorreu();
             }
-
+         
         }
+
+        if(gatilho.gameObject.tag == "Retorno")
+        {
+            Retornar();
+        }
+
         if(gatilho.gameObject.tag == "PuloDuplo")
         {
             puloMax = 2;
@@ -213,8 +224,11 @@ public class Player : MonoBehaviour
         }
         if(gatilho.gameObject.tag == "Checkpoint")
         {
-            pos
+            Checkpoint = gatilho.gameObject.transform.position;
+            
+
         }
+        
     }
     void TemporizadorPulo()
     {
@@ -267,7 +281,9 @@ public class Player : MonoBehaviour
         }
         if(colisao.gameObject.tag == "Espinho")
         {
-            GJ.PersonagemMorreu();
+            //GJ.PersonagemMorreu();
+            Retornar();
+            vida--;
         }
     }
     void TemporizadorDano()
@@ -289,6 +305,12 @@ public class Player : MonoBehaviour
         {
             Corpo.velocity = transform.up * 3f;
         }
+    }
+
+    void Retornar()
+    {
+        transform.position = Checkpoint;
+        
     }
     
     

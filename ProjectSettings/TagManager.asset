@@ -16,6 +16,7 @@ TagManager:
   - PuloDuplo
   - Espinho
   - Checkpoint
+  - Retorno
   layers:
   - Default
   - TransparentFX
