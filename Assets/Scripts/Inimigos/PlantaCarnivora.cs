@@ -7,13 +7,11 @@ public class PlantaCarnivora : MonoBehaviour
     public int hp = 4;
     public bool podeTomarDano = true;
     private Animator Animacao;
-    public Rigidbody2D Tiro;
-    public float velocityTiro;
-    public float timeThrowTiro;
-    public Transform posDown;
-    public Transform posLeft;
+    public GameObject tiroPrefab;
+    public Transform origemTiro;
 
 
+    public float tiroSpeed;
 
     public bool frente = true;
     private GameObject Jogador;
@@ -25,36 +23,22 @@ public class PlantaCarnivora : MonoBehaviour
 
     public float tempo = 0;
     public float distanceAtk;
-    public GameObject MeuAtk;
-    public GameObject PlayerCheck;
 
     void Start()
     {
         Animacao = GetComponent<Animator>();
         Jogador = GameObject.FindGameObjectWithTag("Player");
         GJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<Gerenciador>();
-        InvokeRepeating("AtirarTiro", 0, timeThrowTiro);
-
-
     }
     public void AtirarTiro()
     {
-        StartCoroutine(DispararTiro());
+        GameObject tiro = Instantiate(tiroPrefab, origemTiro.transform.position, origemTiro.transform.rotation);
+
+        tiro.GetComponent<Tiro>().SetSpeed(tiroSpeed);
+
+        Destroy(tiro.gameObject, 2f);
     }
-    IEnumerator DispararTiro()
-    {
-        yield return new WaitForSeconds(1f);
 
-        Rigidbody2D clone;
-        clone = Instantiate(Tiro, posDown.transform.position, posLeft.transform.rotation);
-        clone.velocity = transform.TransformDirection(Vector2.down * 6);
-        
-        Destroy(clone.gameObject, 2f);
-        
-       
-
-
-    }
     private void Update()
     {
         tempo += Time.deltaTime;
@@ -160,12 +144,12 @@ public class PlantaCarnivora : MonoBehaviour
 
     public void AtivaAtk()
     {
-        MeuAtk.SetActive(true);
+        //MeuAtk.SetActive(true);
     }
 
     public void DesativaAtk()
     {
-        MeuAtk.SetActive(false);
+        //MeuAtk.SetActive(false);
     }
 
 

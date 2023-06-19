@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class Tiro : MonoBehaviour
 {
+
+    public float speed;
+    public Rigidbody2D rigidbody2D;
+
+    private void Start()
+    {
+
+    }
+
     private void OnCollisionEnter2D(Collision2D colisao)
     {
         if(colisao.gameObject.tag == "Pisavel")
@@ -19,6 +28,12 @@ public class Tiro : MonoBehaviour
 
         }
 
+    }
+
+    public void SetSpeed(float speed) 
+    {
+        rigidbody2D = GetComponent<Rigidbody2D>();
+        rigidbody2D.velocity = Vector2.right * speed;
     }
 
 }

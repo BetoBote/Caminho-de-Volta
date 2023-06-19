@@ -161,7 +161,7 @@ public class Player : MonoBehaviour
     void AcaoPulo()
     {
         Corpo.velocity = new Vector2(Velocidade, 0);
-        Corpo.AddForce(transform.up * 300f);
+        Corpo.AddForce(transform.up * 298f);
     }
 
     private void OnTriggerEnter2D(Collider2D gatilho)
