@@ -69,6 +69,7 @@ public class Player : MonoBehaviour
         if(Velocidade != 0)
         {
             animacao.SetBool("Andando",true);
+
         }
         else 
         {
@@ -90,11 +91,14 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift))
         {
             velFinal = Velocidade * 2;
+            animacao.SetBool("Correndo", true);
         }
         else
         {
             velFinal = Velocidade;
+            animacao.SetBool("Correndo", false);
         }
+
        float minhavelocidadey  = Corpo.velocity.y;
         if(minhavelocidadey > 10)
         {
@@ -206,6 +210,10 @@ public class Player : MonoBehaviour
             Destroy(gatilho.gameObject);
             vagalumes++;
             Vagalume_text.text = vagalumes.ToString();
+        }
+        if(gatilho.gameObject.tag == "Checkpoint")
+        {
+            pos
         }
     }
     void TemporizadorPulo()

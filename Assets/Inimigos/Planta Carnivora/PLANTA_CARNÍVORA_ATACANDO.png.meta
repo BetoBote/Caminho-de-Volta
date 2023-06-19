@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 881392f1a31a4fd4fb7c390fb6cbbeee
+guid: c59ddef833b7695498db4a6c8d5334eb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boneco_Plataforma_Dano_1
+      name: "PLANTA_CARN\xCDVORA_ATACANDO_0"
       rect:
         serializedVersion: 2
-        x: 620
+        x: 0
         y: 0
-        width: 411
-        height: 636
+        width: 623
+        height: 1101
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02518ed89fcffd14687502cd3078592a
-      internalID: 1349685577
+      spriteID: f5789fd078d606d48ad77923310f560d
+      internalID: -1190108817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boneco_Plataforma_Dano_2
+      name: "PLANTA_CARN\xCDVORA_ATACANDO_1"
       rect:
         serializedVersion: 2
-        x: 1173
-        y: 7
-        width: 494
-        height: 626
+        x: 1604
+        y: 0
+        width: 659
+        height: 1101
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3079f97cd6dbca342973b0cc2db6941f
-      internalID: -207589590
+      spriteID: 89f44d6b343af1144ba5473cafed1ead
+      internalID: -362699403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "PLANTA_CARN\xCDVORA_ATACANDO_2"
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 0
+        width: 709
+        height: 1101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da50d049429f2ba4c83f2f5bfcbef1ae
+      internalID: 2100731790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "PLANTA_CARN\xCDVORA_ATACANDO_3"
+      rect:
+        serializedVersion: 2
+        x: 4324
+        y: 0
+        width: 656
+        height: 1101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218ea73f10e03c84fa4e9b7c2b851118
+      internalID: -1374953870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "PLANTA_CARN\xCDVORA_ATACANDO_4"
+      rect:
+        serializedVersion: 2
+        x: 5748
+        y: 0
+        width: 671
+        height: 1101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9ebb0cfbd6806458348c2a5761330f
+      internalID: -52459481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "PLANTA_CARN\xCDVORA_ATACANDO_5"
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 0
+        width: 770
+        height: 1101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5276ab5bd8ad745bea982356e49148
+      internalID: -1254538580
       vertices: []
       indices: 
       edges: []
@@ -169,49 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Boneco_Plataforma_Dano_33: -396504762
-      Boneco_Plataforma_Dano_25: -1843984891
-      Boneco_Plataforma_Dano_12: -1913440081
-      Boneco_Plataforma_Dano_29: -926960643
-      Boneco_Plataforma_Dano_36: 1291763909
-      Boneco_Plataforma_Dano_35: -97099772
-      Boneco_Plataforma_Dano_32: -457358374
-      Boneco_Plataforma_Dano_3: 617046920
-      Boneco_Plataforma_Dano_0: 854454042
-      Boneco_Plataforma_Dano_37: -1761591486
-      Boneco_Plataforma_Dano_27: -271165752
-      Boneco_Plataforma_Dano_11: 2103986000
-      Boneco_Plataforma_Dano_38: 1047007594
-      Boneco_Plataforma_Dano_4: -565879847
-      Boneco_Plataforma_Dano_14: 865953807
-      Boneco_Plataforma_Dano_26: 482585023
-      Boneco_Plataforma_Dano_8: -2030869554
-      Boneco_Plataforma_Dano_40: 1111975615
-      Boneco_Plataforma_Dano_41: 1539329961
-      Boneco_Plataforma_Dano_39: -655642085
-      Boneco_Plataforma_Dano_42: 1944433063
-      Boneco_Plataforma_Dano_13: 1604767317
-      Boneco_Plataforma_Dano_22: -244628007
-      Boneco_Plataforma_Dano_31: 824641512
-      Boneco_Plataforma_Dano_15: -202709694
-      Boneco_Plataforma_Dano_20: -1204552213
-      Boneco_Plataforma_Dano_21: 781146459
-      Boneco_Plataforma_Dano_30: 628525564
-      Boneco_Plataforma_Dano_7: -1423849795
-      Boneco_Plataforma_Dano_19: 2099477993
-      Boneco_Plataforma_Dano_23: 821823947
-      Boneco_Plataforma_Dano_6: -1396571181
-      Boneco_Plataforma_Dano_16: -1612587385
-      Boneco_Plataforma_Dano_1: 1349685577
-      Boneco_Plataforma_Dano_18: -663388883
-      Boneco_Plataforma_Dano_24: -159007876
-      Boneco_Plataforma_Dano_17: 751195661
-      Boneco_Plataforma_Dano_2: -207589590
-      Boneco_Plataforma_Dano_9: -1978098893
-      Boneco_Plataforma_Dano_28: 683033372
-      Boneco_Plataforma_Dano_10: -1714718372
-      Boneco_Plataforma_Dano_5: -717179006
-      Boneco_Plataforma_Dano_34: 1733982085
+      "PLANTA_CARN\xCDVORA_ATACANDO_2": 2100731790
+      "PLANTA_CARN\xCDVORA_ATACANDO_0": -1190108817
+      "PLANTA_CARN\xCDVORA_ATACANDO_1": -362699403
+      "PLANTA_CARN\xCDVORA_ATACANDO_5": -1254538580
+      "PLANTA_CARN\xCDVORA_ATACANDO_3": -1374953870
+      "PLANTA_CARN\xCDVORA_ATACANDO_4": -52459481
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -15,6 +15,7 @@ TagManager:
   - ataque
   - PuloDuplo
   - Espinho
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
