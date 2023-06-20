@@ -121,9 +121,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 17
         width: 237
-        height: 270
+        height: 253
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,9 +142,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 532
-        y: 0
+        y: 17
         width: 239
-        height: 270
+        height: 253
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: SAPO_ATACANDO_2
       rect:
         serializedVersion: 2
-        x: 924
-        y: 0
+        x: 925
+        y: 21
         width: 243
-        height: 270
+        height: 249
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,9 +184,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1372
-        y: 0
+        y: 25
         width: 291
-        height: 270
+        height: 245
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,9 +205,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1824
-        y: 0
+        y: 12
         width: 377
-        height: 270
+        height: 258
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,9 +226,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2511
-        y: 0
+        y: 1
         width: 425
-        height: 270
+        height: 269
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,9 +247,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3082
-        y: 0
+        y: 19
         width: 523
-        height: 270
+        height: 251
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,9 +268,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3795
-        y: 0
+        y: 15
         width: 523
-        height: 270
+        height: 255
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,9 +289,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4631
-        y: 0
+        y: 3
         width: 426
-        height: 270
+        height: 267
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,9 +310,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5221
-        y: 0
+        y: 9
         width: 373
-        height: 270
+        height: 261
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +330,10 @@ TextureImporter:
       name: SAPO_ATACANDO_10
       rect:
         serializedVersion: 2
-        x: 5822
-        y: 0
-        width: 291
-        height: 270
+        x: 5827
+        y: 21
+        width: 286
+        height: 249
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,9 +352,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 6304
-        y: 0
+        y: 25
         width: 242
-        height: 270
+        height: 245
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,9 +373,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 6868
-        y: 0
+        y: 18
         width: 239
-        height: 270
+        height: 252
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,13 +393,13 @@ TextureImporter:
       name: SAPO_ATACANDO_13
       rect:
         serializedVersion: 2
-        x: 7408
-        y: 0
-        width: 237
-        height: 270
+        x: 7412
+        y: 16
+        width: 233
+        height: 254
       alignment: 8
       pivot: {x: 1, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0

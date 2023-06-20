@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     private Animator animacao;
     //public Vector3 posInicial;
 
-    private Vector3 Checkpoint;
+    
     
     
 
@@ -161,7 +161,7 @@ public class Player : MonoBehaviour
     void AcaoPulo()
     {
         Corpo.velocity = new Vector2(Velocidade, 0);
-        Corpo.AddForce(transform.up * 298f);
+        Corpo.AddForce(transform.up * 300f);
     }
 
     private void OnTriggerEnter2D(Collider2D gatilho)
@@ -189,10 +189,7 @@ public class Player : MonoBehaviour
          
         }
 
-        if(gatilho.gameObject.tag == "Retorno")
-        {
-            Retornar();
-        }
+        
 
         if(gatilho.gameObject.tag == "PuloDuplo")
         {
@@ -222,12 +219,7 @@ public class Player : MonoBehaviour
             vagalumes++;
             Vagalume_text.text = vagalumes.ToString();
         }
-        if(gatilho.gameObject.tag == "Checkpoint")
-        {
-            Checkpoint = gatilho.gameObject.transform.position;
-            
-
-        }
+        
         if(gatilho.gameObject.tag == "Vitoria")
         {
             GJ.Vitoria();
@@ -285,9 +277,15 @@ public class Player : MonoBehaviour
         }
         if(colisao.gameObject.tag == "Espinho")
         {
-            //GJ.PersonagemMorreu();
-            Retornar();
-            vida--;
+            GJ.PersonagemMorreu();
+            
+            
+        }
+
+        if (colisao.gameObject.tag == "Mola")
+        {
+            Debug.LogWarning("Molinha");
+            Corpo.AddForce(Vector2.up * 1000f);
         }
     }
     void TemporizadorDano()
@@ -307,15 +305,11 @@ public class Player : MonoBehaviour
     {
         if (coll.CompareTag("mola"))
         {
-            Corpo.velocity = transform.up * 5f;
+            Corpo.AddForce(transform.up * 10f);
         }
     }
 
-    void Retornar()
-    {
-        transform.position = Checkpoint;
-        
-    }
+    
 
 
     
