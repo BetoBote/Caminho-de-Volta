@@ -1,0 +1,1191 @@
+fileFormatVersion: 2
+guid: aef954329c796d24b9fe82814f553d26
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VAGALUME 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1089
+        width: 144
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfed5feec79564478d380482b11546a
+      internalID: 1282080543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1093
+        width: 138
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256f552778dcda84e8430f5df019d5ed
+      internalID: -805876332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1100
+        width: 119
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886e89744898fbd40b01358017a858c2
+      internalID: -1573072339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_3
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1100
+        width: 120
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11be35ee999390347ae6efcd288251e9
+      internalID: 1290048821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_4
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1110
+        width: 97
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499a3df8e0097334cac5228e90bc3c9e
+      internalID: -241243425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_5
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1126
+        width: 65
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4956a2742af23c94281fa638dcd91e29
+      internalID: -434188111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_6
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1126
+        width: 65
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcbe312e35b25b4b9b68363038bb68e
+      internalID: -2059325757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_7
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 1110
+        width: 98
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed79a4d8ec66ee6428ff987976bfb9e4
+      internalID: -454968571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_8
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 1100
+        width: 121
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2a6aa7aed08524b9bcef8cee5a93aa
+      internalID: -2089964734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_9
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 1100
+        width: 120
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4943bee62f4e2d44bba81288c6c13ce2
+      internalID: -526417811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_10
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 1093
+        width: 136
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4ce43864ed31f43a2d3a77222b6f40
+      internalID: -310370403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_11
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1089
+        width: 144
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05582dc17c58ddd489acbcf654775ecc
+      internalID: 677080210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 726
+        width: 144
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0242f43db775244bc07a01cba9cc87
+      internalID: 1347076639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 731
+        width: 138
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce25a49987a2f204bb7297963de435bc
+      internalID: -62603376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_14
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 737
+        width: 119
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7187796b4710249a1b30000958ffdc
+      internalID: 1694760740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_15
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 737
+        width: 120
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f12c61c1c8995f4ca6bb804a5b826c3
+      internalID: 1882432591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_16
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 749
+        width: 98
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa6e0ea76415214b8f22ed6d53a592a
+      internalID: -1787983296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_17
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 765
+        width: 65
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b883f452c5ea7f49a5ee30fbb41dbb4
+      internalID: 1872532643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_18
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 765
+        width: 65
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0324705e40e1116468ab6e3e34e6406c
+      internalID: -1671019335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_19
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 749
+        width: 98
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849b162ed7c580741adfcbb0563d7aac
+      internalID: 636691541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_20
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 737
+        width: 121
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dece299ca4e1c4183b29526d33a916
+      internalID: 1671055276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_21
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 737
+        width: 120
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d858e06eef65674592af85cf69260da
+      internalID: -1817683009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_22
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 731
+        width: 136
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ea6c49c0daeaa4eae322efb897da2a
+      internalID: -479596280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_23
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 726
+        width: 144
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfc9591cd2dd374c868c18a7fd52bb1
+      internalID: 93248911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 144
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61c3de4d8f86394d85a64754e75b10a
+      internalID: -870289260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_25
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 355
+        width: 138
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e48512e202770c46b4484ef3db6f7e3
+      internalID: 345207530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_26
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 362
+        width: 119
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266d8ddbf07ceee4baf62031a9c85972
+      internalID: 1300881672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_27
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 361
+        width: 120
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf08e6da23641234aa2488b08eb7009a
+      internalID: 214551503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_28
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 373
+        width: 98
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef795507f98dc8c41ab71ec589807860
+      internalID: 857598636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_29
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 388
+        width: 65
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c48f69074de3c46805a9727754a66f
+      internalID: -1896772527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_30
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 388
+        width: 65
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c0c3531837b044ea8cd4099ce38439
+      internalID: -1319523143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_31
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 373
+        width: 98
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4d941c6b89a4a4b8ac00c99b9c6f20
+      internalID: 2094624580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_32
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 361
+        width: 121
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c43944df0425db409a5fc94b400f9f1
+      internalID: 780226483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_33
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 362
+        width: 120
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fac24e9e8a4fe4c8c1ab17934d7853
+      internalID: -1540408143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_34
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 355
+        width: 136
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61651839f88e07479f753eff7ba5d86
+      internalID: 1025637467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_35
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 350
+        width: 144
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb01923415f5dc4bb1882b719319c6c
+      internalID: 1165820307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 144
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab284eeab322c640a8d70e1d353e62e
+      internalID: 1602288145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_37
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3
+        width: 138
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b565210fdf89a4a8a62378cba3a364
+      internalID: -901615987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_38
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 10
+        width: 119
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483dcaa2bfd6e854f9b7d3ae50895d35
+      internalID: -1859943831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_39
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 10
+        width: 120
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9469e6ebb521b964bb9558f9d8a44346
+      internalID: 96714052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_40
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 21
+        width: 97
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f047f87277382a14cb0da3877e3e15d0
+      internalID: -2101305633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_41
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 36
+        width: 65
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c533c643238f75498044a9817762adc
+      internalID: 811391559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_42
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 36
+        width: 65
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07995f628e9ae5449afa8b88465ad40a
+      internalID: -1980561031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_43
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 21
+        width: 98
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c9dda2455526747b3838b2e1c32166
+      internalID: 357601637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_44
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 10
+        width: 121
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6acd6e3689da94d8db1eb8a47660a0
+      internalID: 1460369802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_45
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 10
+        width: 120
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179441261e89c3c45838f3a47aa94ea8
+      internalID: 353262258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_46
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 3
+        width: 136
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e4b3fdcdb370041a205f3043afcd8c
+      internalID: -81067471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAGALUME 1_47
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 144
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6d879da6aaae5498bcd73dab6a8963
+      internalID: -755370693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VAGALUME 1_30: -1319523143
+      VAGALUME 1_40: -2101305633
+      VAGALUME 1_20: 1671055276
+      VAGALUME 1_3: 1290048821
+      VAGALUME 1_4: -241243425
+      VAGALUME 1_17: 1872532643
+      VAGALUME 1_24: -870289260
+      VAGALUME 1_10: -310370403
+      VAGALUME 1_9: -526417811
+      VAGALUME 1_16: -1787983296
+      VAGALUME 1_12: 1347076639
+      VAGALUME 1_27: 214551503
+      VAGALUME 1_36: 1602288145
+      VAGALUME 1_6: -2059325757
+      VAGALUME 1_8: -2089964734
+      VAGALUME 1_32: 780226483
+      VAGALUME 1_13: -62603376
+      VAGALUME 1_18: -1671019335
+      VAGALUME 1_29: -1896772527
+      VAGALUME 1_39: 96714052
+      VAGALUME 1_28: 857598636
+      VAGALUME 1_7: -454968571
+      VAGALUME 1_11: 677080210
+      VAGALUME 1_46: -81067471
+      VAGALUME 1_41: 811391559
+      VAGALUME 1_1: -805876332
+      VAGALUME 1_19: 636691541
+      VAGALUME 1_26: 1300881672
+      VAGALUME 1_22: -479596280
+      VAGALUME 1_35: 1165820307
+      VAGALUME 1_14: 1694760740
+      VAGALUME 1_31: 2094624580
+      VAGALUME 1_42: -1980561031
+      VAGALUME 1_44: 1460369802
+      VAGALUME 1_38: -1859943831
+      VAGALUME 1_5: -434188111
+      VAGALUME 1_2: -1573072339
+      VAGALUME 1_43: 357601637
+      VAGALUME 1_45: 353262258
+      VAGALUME 1_34: 1025637467
+      VAGALUME 1_23: 93248911
+      VAGALUME 1_47: -755370693
+      VAGALUME 1_21: -1817683009
+      VAGALUME 1_0: 1282080543
+      VAGALUME 1_25: 345207530
+      VAGALUME 1_33: -1540408143
+      VAGALUME 1_15: 1882432591
+      VAGALUME 1_37: -901615987
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

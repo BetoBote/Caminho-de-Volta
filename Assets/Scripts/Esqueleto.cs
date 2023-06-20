@@ -64,7 +64,7 @@ public class Esqueleto : MonoBehaviour
             {
                 Animacao.SetBool("Atacar", true);
                 canAtk = false;
-                MeuAtk.SetActive(true);
+                //MeuAtk.SetActive(true);
                 tempo = 0;
             }
             /*if (tempo > 1 && !canAtk)
@@ -91,7 +91,7 @@ public class Esqueleto : MonoBehaviour
                 canAtk = false;
             }*/
         }
-        else
+        else if(canAtk == true)
         {
             Animacao.SetBool("Andar", true);
             Animacao.SetBool("Atacar", false);
@@ -189,6 +189,7 @@ public class Esqueleto : MonoBehaviour
     public void DesativaAtk()
     {
         MeuAtk.SetActive(false);
+        canAtk = true;
     }
 
 

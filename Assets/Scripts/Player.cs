@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     private float meuTempoPulo = 0;
     public bool pode_pular = true;
     public float puloMax = 1;
-    public int vida = 3;
+    public int vida = 5;
     private bool pode_dano = true;
     private float meuTempoDano = 0;
     public int bolinhas = 0;
@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     
     
 
-    public float barraCoracao = 3;
+    public float barraCoracao = 5;
     public RectTransform imgbarraCoracao;
 
     private Gerenciador GJ;
@@ -175,7 +175,7 @@ public class Player : MonoBehaviour
                 pode_dano = false;
                 vida--;
                 Dano();
-                puloMax = 1;
+                
 
 
 
@@ -262,7 +262,7 @@ public class Player : MonoBehaviour
                 pode_dano = false;
                 vida--;
                 Dano();
-                puloMax = 1;
+                
                 
 
 
