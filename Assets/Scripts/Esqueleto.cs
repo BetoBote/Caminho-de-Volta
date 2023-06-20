@@ -132,7 +132,7 @@ public class Esqueleto : MonoBehaviour
             //para Onde eu quero IR
             Vector2 destino = new Vector2(posFinal, transform.position.y);
             //Me deslocando
-            transform.position = Vector2.MoveTowards(transform.position, destino, 0.01f);
+            transform.position = Vector2.MoveTowards(transform.position, destino, 0.001f);
             transform.localScale = new Vector3(1, 1, 1);
             if(Vector2.Distance(transform.position, destino) < 0.2f)
             {
@@ -144,7 +144,7 @@ public class Esqueleto : MonoBehaviour
             //para Onde eu quero IR
             Vector2 destino = new Vector2(posInicial, transform.position.y);
             //Me deslocando
-            transform.position = Vector2.MoveTowards(transform.position, destino, 0.01f);
+            transform.position = Vector2.MoveTowards(transform.position, destino, 0.001f);
             transform.localScale = new Vector3(-1, 1, 1);
             if (Vector2.Distance(transform.position, destino) < 0.2f)
             {

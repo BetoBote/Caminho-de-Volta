@@ -8,6 +8,13 @@ public class Gerenciador : MonoBehaviour
     public bool GameLigado = false;
     public Controlador controlador;
     public GameObject TelaGameOver;
+    public GameObject TelaVitoria;
+
+    public void Vitoria()
+    {
+        GameLigado = false;
+        TelaVitoria.SetActive(true);
+    }
     void Start()
     {
         GameLigado = false;

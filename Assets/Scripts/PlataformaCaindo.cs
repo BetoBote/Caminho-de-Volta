@@ -28,6 +28,7 @@ public class PlataformaCaindo : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
     }
 
     // Update is called once per frame

@@ -228,6 +228,10 @@ public class Player : MonoBehaviour
             
 
         }
+        if(gatilho.gameObject.tag == "Vitoria")
+        {
+            GJ.Vitoria();
+        }
         
     }
     void TemporizadorPulo()
@@ -303,7 +307,7 @@ public class Player : MonoBehaviour
     {
         if (coll.CompareTag("mola"))
         {
-            Corpo.velocity = transform.up * 3f;
+            Corpo.velocity = transform.up * 5f;
         }
     }
 
@@ -312,6 +316,8 @@ public class Player : MonoBehaviour
         transform.position = Checkpoint;
         
     }
+
+
     
     
 }
