@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     private Text Vagalume_text;
     private Text Bolinhas_text;
     private Animator animacao;
+    public GerenciadorDeSom Som;
     //public Vector3 posInicial;
 
     
@@ -69,9 +70,10 @@ public class Player : MonoBehaviour
         float velFinal;
         
 
-        
 
-        if(Velocidade != 0)
+
+
+        if (Velocidade != 0)
         {
             animacao.SetBool("Andando",true);
 
@@ -83,6 +85,7 @@ public class Player : MonoBehaviour
 
         if(Corpo.velocity.y > 1)
         {
+            
             animacao.SetBool("Pulando", true);
         }
         if(Corpo.velocity.y < -2)
@@ -148,6 +151,7 @@ public class Player : MonoBehaviour
             
             if(qtd_Pulo <= puloMax)
             {
+                Som.pulo.GetComponent<AudioSource>().Play();
                 AcaoPulo();
             }
             
@@ -184,7 +188,9 @@ public class Player : MonoBehaviour
             }
             if (barraCoracao <= 0)
             {
+                Som.morte.GetComponent<AudioSource>().Play();
                 GJ.PersonagemMorreu();
+                
             }
          
         }
@@ -193,6 +199,7 @@ public class Player : MonoBehaviour
 
         if(gatilho.gameObject.tag == "PuloDuplo")
         {
+            Som.powerUp.GetComponent<AudioSource>().Play();
             puloMax = 2;
             Destroy(gatilho.gameObject);
             
@@ -208,6 +215,7 @@ public class Player : MonoBehaviour
 
         if(gatilho.gameObject.tag == "BolinhaDGude")
         {
+            Som.bolinha.GetComponent<AudioSource>().Play();
             Destroy(gatilho.gameObject);
             bolinhas++;
             Bolinhas_text.text = bolinhas.ToString();
@@ -215,6 +223,7 @@ public class Player : MonoBehaviour
 
         if (gatilho.gameObject.tag == "Vagalume")
         {
+            Som.vagalume.GetComponent<AudioSource>().Play();
             Destroy(gatilho.gameObject);
             vagalumes++;
             Vagalume_text.text = vagalumes.ToString();
@@ -271,15 +280,19 @@ public class Player : MonoBehaviour
             }
             if(barraCoracao <= 0)
             {
+                Som.SomEncerramento();
                 GJ.PersonagemMorreu();
+                
             }
             
         }
         if(colisao.gameObject.tag == "Espinho")
         {
+            Som.SomEncerramento();
             GJ.PersonagemMorreu();
             
-            
+
+
         }
 
         if (colisao.gameObject.tag == "Mola")

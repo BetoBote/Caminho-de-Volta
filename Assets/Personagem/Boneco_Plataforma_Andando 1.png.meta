@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5695c4f77f8812442b5640916cd94e3b
-      internalID: 1509817658
+      spriteID: f21f038916b58e04c89e1ed91472d8f3
+      internalID: -650217633
       vertices: []
       indices: 
       edges: []
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09b8f50793aaf8145a13df8069bf1f86
-      internalID: -1940303066
+      spriteID: dbcc3038faac21b409f0b666c581d12e
+      internalID: 1347036042
       vertices: []
       indices: 
       edges: []
@@ -173,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4444d59679c6d6945bac7dafc4642d15
-      internalID: -1901856442
+      spriteID: 9d1faa0b33466314199b7562b5d3a8c0
+      internalID: -1826009032
       vertices: []
       indices: 
       edges: []
@@ -194,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8af2d7fc6b24f2e48a7cc78148b2e4c5
-      internalID: 1290764722
+      spriteID: 4352b57da39a904469a1d21f95c7aebb
+      internalID: -1299818999
       vertices: []
       indices: 
       edges: []
@@ -215,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6881e65d0d34c9746bc41e62a24d5427
-      internalID: 1400681562
+      spriteID: c7a61c4611052304faffe315f8030e16
+      internalID: 912521489
       vertices: []
       indices: 
       edges: []
@@ -236,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e078c623838877b43bdb44e9d5701e78
-      internalID: -614300644
+      spriteID: 9fa66b636b6b9744fbfaa8fe7b9469a4
+      internalID: -1184505825
       vertices: []
       indices: 
       edges: []
@@ -246,19 +246,40 @@ TextureImporter:
       name: Boneco_Plataforma_Andando 1_7
       rect:
         serializedVersion: 2
-        x: 4649
-        y: 950
-        width: 352
-        height: 636
+        x: 4652
+        y: 954
+        width: 353
+        height: 632
       alignment: 7
       pivot: {x: 0.5, y: 0}
-      border: {x: 7, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a458699cdc27dd4f8c87be1227ffd0c
-      internalID: 979223705
+      spriteID: fecfbc469cbde544698ce4bbc3b55b49
+      internalID: 1049032792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Andando 1_8
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 0
+        width: 364
+        height: 621
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dcb371b14cf8d4e9d04a214473128f
+      internalID: -646086251
       vertices: []
       indices: 
       edges: []
@@ -278,8 +299,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccf4415c38e608647b3365a6bc626e0f
-      internalID: 1902623455
+      spriteID: 94b9962a3ccafc74d949fd2e3c7ff2ad
+      internalID: 676490948
       vertices: []
       indices: 
       edges: []
@@ -299,8 +320,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19166ecee5fa5b1409ff1dea522e5b75
-      internalID: -967675922
+      spriteID: c91a9656a9d4d254fa65bdd2cb288124
+      internalID: 879558177
       vertices: []
       indices: 
       edges: []
@@ -320,8 +341,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 937f29603b128bb4fad943f966e14129
-      internalID: -1076651685
+      spriteID: 933849670464f3842b40a5291272fcbd
+      internalID: -1009435114
       vertices: []
       indices: 
       edges: []
@@ -341,50 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 056774e7f4447144c9c5ebfb2dbab619
-      internalID: 735889873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Andando 1_0
-      rect:
-        serializedVersion: 2
-        x: 1963
-        y: 0
-        width: 347
-        height: 616
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bb2316df3ab6314797f497da56ff4e0
-      internalID: 794736147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boneco_Plataforma_Andando 1_13
-      rect:
-        serializedVersion: 2
-        x: 5288
-        y: 0
-        width: 348
-        height: 635
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a52b91ebdc4b784f8711762e89c6146
-      internalID: 803454013
+      spriteID: 8fbcf2f7258c0d94887a557678d8a686
+      internalID: 1220206021
       vertices: []
       indices: 
       edges: []
@@ -400,20 +379,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Boneco_Plataforma_Andando 1_8: 472606731
-      Boneco_Plataforma_Andando 1_13: 803454013
-      Boneco_Plataforma_Andando 1_6: -614300644
-      Boneco_Plataforma_Andando 1_11: -1076651685
-      Boneco_Plataforma_Andando 1_1: 1509817658
-      Boneco_Plataforma_Andando 1_9: 1902623455
-      Boneco_Plataforma_Andando 1_2: -1940303066
-      Boneco_Plataforma_Andando 1_4: 1290764722
-      Boneco_Plataforma_Andando 1_10: -967675922
-      Boneco_Plataforma_Andando 1_5: 1400681562
-      Boneco_Plataforma_Andando 1_3: -1901856442
-      Boneco_Plataforma_Andando 1_0: 794736147
-      Boneco_Plataforma_Andando 1_12: 735889873
-      Boneco_Plataforma_Andando 1_7: 979223705
+      Boneco_Plataforma_Andando 1_8: -646086251
+      Boneco_Plataforma_Andando 1_13: 1900449873
+      Boneco_Plataforma_Andando 1_6: -1184505825
+      Boneco_Plataforma_Andando 1_11: -1009435114
+      Boneco_Plataforma_Andando 1_1: -650217633
+      Boneco_Plataforma_Andando 1_9: 676490948
+      Boneco_Plataforma_Andando 1_2: 1347036042
+      Boneco_Plataforma_Andando 1_4: -1299818999
+      Boneco_Plataforma_Andando 1_10: 879558177
+      Boneco_Plataforma_Andando 1_5: 912521489
+      Boneco_Plataforma_Andando 1_3: -1826009032
+      Boneco_Plataforma_Andando 1_0: -1182926867
+      Boneco_Plataforma_Andando 1_12: 1220206021
+      Boneco_Plataforma_Andando 1_7: 1049032792
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

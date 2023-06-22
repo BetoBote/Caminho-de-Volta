@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 public class Gerenciador : MonoBehaviour
 {
     public bool GameLigado = false;
-    public Controlador controlador;
+    //public Controlador controlador;
     public GameObject TelaGameOver;
     public GameObject TelaVitoria;
+    
 
     public void Vitoria()
     {
@@ -48,9 +49,11 @@ public class Gerenciador : MonoBehaviour
     
     public void PersonagemMorreu()
     {
+        
         TelaGameOver.SetActive(true);
         GameLigado = false;
         Time.timeScale = 0;
+        
     }
 
     public void Reiniciar()
