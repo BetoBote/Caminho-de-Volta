@@ -1,0 +1,730 @@
+fileFormatVersion: 2
+guid: 9c874dcb618fb1843a216eb25d9d16ab
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_1"
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 916
+        width: 345
+        height: 628
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15a3f3d160a3e945aeb959776c0a314
+      internalID: -23982400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_2"
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 908
+        width: 345
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7266ebc2fb7071640aacb0d55386dd44
+      internalID: -1677417359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_3"
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 908
+        width: 346
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ff26d53a5d25f439f801388903a2d9
+      internalID: -451926399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_4"
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 908
+        width: 349
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4673af5718caed43be0e1f040689d06
+      internalID: -993743934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_5"
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 908
+        width: 345
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f372ae3f58419e54f9d4b89e7ded8fe3
+      internalID: 2104307706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_6"
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 908
+        width: 345
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f033c6e4381b53647af2fe5343316d2f
+      internalID: 1220052367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_7"
+      rect:
+        serializedVersion: 2
+        x: 4332
+        y: 908
+        width: 345
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fc2713cfcb9da4488b186fb4db3316
+      internalID: 778955950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_8"
+      rect:
+        serializedVersion: 2
+        x: 4929
+        y: 908
+        width: 346
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd77a2fb3eed6e645a66dec1fb46971d
+      internalID: -912280598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_9"
+      rect:
+        serializedVersion: 2
+        x: 5564
+        y: 908
+        width: 341
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4253ec8b32b8e4c83bc87375ddaf96
+      internalID: -1601225835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_10"
+      rect:
+        serializedVersion: 2
+        x: 6149
+        y: 908
+        width: 345
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df09ab20bcc04e44a5f510685388c6f
+      internalID: 1990025496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_11"
+      rect:
+        serializedVersion: 2
+        x: 6767
+        y: 908
+        width: 341
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f9f4f506488a448a622a2db8198fe0
+      internalID: -581832960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_12"
+      rect:
+        serializedVersion: 2
+        x: 7356
+        y: 908
+        width: 350
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9ede4c7ef85cc42a93fcece2b6e3be
+      internalID: -1446472975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_13"
+      rect:
+        serializedVersion: 2
+        x: 7983
+        y: 908
+        width: 343
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ab8ec29f6ab6948b16d43155856fc6
+      internalID: 210976347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_14"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 339
+        height: 637
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f5e018fcdf5ec4990a036ad2f04ea7
+      internalID: 288343302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_15"
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 345
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9642ebee6812ab1429d440facb7f9bd0
+      internalID: -1736978211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_16"
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 0
+        width: 346
+        height: 632
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4daeb00cff3d6084c983555be620b9ad
+      internalID: 1817164393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_17"
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 0
+        width: 350
+        height: 628
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67a82d37c12e5548882e9bf872e81e7
+      internalID: 661499896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_18"
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 0
+        width: 350
+        height: 624
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a71a18a1ef98c458f5d88c7735e0e1
+      internalID: -981333359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_19"
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 0
+        width: 350
+        height: 624
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8469e877ad90f0846adc4bfe5eb7f6c9
+      internalID: 525682585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_20"
+      rect:
+        serializedVersion: 2
+        x: 3706
+        y: 0
+        width: 349
+        height: 620
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5788b27931b299e4a86bcf425950b3d2
+      internalID: 861942053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_21"
+      rect:
+        serializedVersion: 2
+        x: 4332
+        y: 0
+        width: 345
+        height: 624
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35684d807a3030e4b91464db7e74fc84
+      internalID: -1972276312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_22"
+      rect:
+        serializedVersion: 2
+        x: 4925
+        y: 0
+        width: 350
+        height: 628
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264afb53b06d5f94a8b472021e48f606
+      internalID: 1840108202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_23"
+      rect:
+        serializedVersion: 2
+        x: 5559
+        y: 0
+        width: 346
+        height: 628
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03df765b9c8364b40b09de21437eccf0
+      internalID: 1745873893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_24"
+      rect:
+        serializedVersion: 2
+        x: 6145
+        y: 0
+        width: 349
+        height: 632
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6419da2ddce6f2b4886bbcbb90d575f8
+      internalID: 320318762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_25"
+      rect:
+        serializedVersion: 2
+        x: 6755
+        y: 0
+        width: 353
+        height: 632
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872e6bf3ac3be1f43a1232b8ebbd31a6
+      internalID: 1674166603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_26"
+      rect:
+        serializedVersion: 2
+        x: 7356
+        y: 0
+        width: 350
+        height: 636
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6c5fbf9b8bfa840acfb790e911b85d
+      internalID: 1852572073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Correndo_com_bot\xE3o_27"
+      rect:
+        serializedVersion: 2
+        x: 7982
+        y: 0
+        width: 344
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f390a5730439304b9961f037247bb2b
+      internalID: -58404880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_0": 463434346
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_23": 1745873893
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_15": -1736978211
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_27": -58404880
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_12": -1446472975
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_6": 1220052367
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_1": -23982400
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_10": 1990025496
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_14": 288343302
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_16": 1817164393
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_20": 861942053
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_9": -1601225835
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_3": -451926399
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_11": -581832960
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_13": 210976347
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_19": 525682585
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_8": -912280598
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_17": 661499896
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_22": 1840108202
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_5": 2104307706
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_7": 778955950
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_24": 320318762
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_4": -993743934
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_21": -1972276312
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_2": -1677417359
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_26": 1852572073
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_25": 1674166603
+      "Boneco_Plataforma_Correndo_com_bot\xE3o_18": -981333359
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

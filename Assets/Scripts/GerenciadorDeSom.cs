@@ -9,6 +9,7 @@ public class GerenciadorDeSom : MonoBehaviour
     public AudioSource powerUp;
     public AudioSource pulo;
     public AudioSource morte;
+    public AudioSource SomdeArvore;
 
     public AudioSource somdeFundo;
 

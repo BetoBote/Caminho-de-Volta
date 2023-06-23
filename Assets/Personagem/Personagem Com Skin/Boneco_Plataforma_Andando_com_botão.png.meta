@@ -1,0 +1,401 @@
+fileFormatVersion: 2
+guid: f8dca03d78236174aaeb1144cb9a1aa1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Andando_com_bot\xE3o_1"
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 957
+        width: 350
+        height: 629
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3e0137f543de04b89ae8fb65a94a39
+      internalID: -1240527726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Andando_com_bot\xE3o_2"
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 960
+        width: 349
+        height: 626
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddad90b35ed408644b17eb9a2e14da53
+      internalID: 1348823770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Andando_com_bot\xE3o_3"
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 960
+        width: 353
+        height: 626
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a77ef1bb46030c48a45e07a330b98fd
+      internalID: 938796875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Andando_com_bot\xE3o_4"
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 962
+        width: 350
+        height: 624
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d618718f38e70479044e1ecfaca9c7
+      internalID: -413475175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Andando_com_bot\xE3o_5"
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 962
+        width: 352
+        height: 624
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f704c6d36265a87448db36a7de570181
+      internalID: -1839887684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Andando_com_bot\xE3o_6"
+      rect:
+        serializedVersion: 2
+        x: 3972
+        y: 960
+        width: 350
+        height: 626
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5151a8e8b660d0a428c4be9ccc3e162b
+      internalID: 2064877500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Andando_com_bot\xE3o_7"
+      rect:
+        serializedVersion: 2
+        x: 4652
+        y: 954
+        width: 351
+        height: 632
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea475652f2ccecb4b9b1ab37fa3827a4
+      internalID: -72309495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Andando_com_bot\xE3o_8"
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 0
+        width: 352
+        height: 621
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5f9ba0e8a2430429f9f1e85c8a046b
+      internalID: -666931023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Andando_com_bot\xE3o_9"
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 0
+        width: 349
+        height: 624
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1617b30101335646a5641f0e0a2cdd0
+      internalID: 2022299688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Andando_com_bot\xE3o_10"
+      rect:
+        serializedVersion: 2
+        x: 3265
+        y: 0
+        width: 350
+        height: 626
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee41a13db55e5d4bab32ed430885605
+      internalID: 1383627675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Andando_com_bot\xE3o_11"
+      rect:
+        serializedVersion: 2
+        x: 3915
+        y: 0
+        width: 352
+        height: 629
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d93d0d01193234e8cdde7a837337b6
+      internalID: -291771944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Boneco_Plataforma_Andando_com_bot\xE3o_12"
+      rect:
+        serializedVersion: 2
+        x: 4586
+        y: 0
+        width: 352
+        height: 632
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496fc4f9637b4144095631bdb1d5488f
+      internalID: -1931060535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Boneco_Plataforma_Andando_com_bot\xE3o_6": 2064877500
+      "Boneco_Plataforma_Andando_com_bot\xE3o_5": -1839887684
+      "Boneco_Plataforma_Andando_com_bot\xE3o_7": -72309495
+      "Boneco_Plataforma_Andando_com_bot\xE3o_2": 1348823770
+      "Boneco_Plataforma_Andando_com_bot\xE3o_10": 1383627675
+      "Boneco_Plataforma_Andando_com_bot\xE3o_13": 1674633974
+      "Boneco_Plataforma_Andando_com_bot\xE3o_4": -413475175
+      "Boneco_Plataforma_Andando_com_bot\xE3o_11": -291771944
+      "Boneco_Plataforma_Andando_com_bot\xE3o_9": 2022299688
+      "Boneco_Plataforma_Andando_com_bot\xE3o_12": -1931060535
+      "Boneco_Plataforma_Andando_com_bot\xE3o_0": 471101940
+      "Boneco_Plataforma_Andando_com_bot\xE3o_1": -1240527726
+      "Boneco_Plataforma_Andando_com_bot\xE3o_3": 938796875
+      "Boneco_Plataforma_Andando_com_bot\xE3o_8": -666931023
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -202,6 +202,7 @@ public class Player : MonoBehaviour
             Som.powerUp.GetComponent<AudioSource>().Play();
             puloMax = 2;
             Destroy(gatilho.gameObject);
+            animacao.SetBool("PowerUp", true);
             
         }
        

@@ -6,6 +6,8 @@ public class TroncoCaindoAnim : MonoBehaviour
 
 
 {
+    bool colidiu = false;
+    public GerenciadorDeSom Som;
     public Animator animacao;
     void Start()
     {
@@ -13,9 +15,11 @@ public class TroncoCaindoAnim : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if(collision.gameObject.tag == "Player" && !colidiu)
         {
+            colidiu = true;
             animacao.SetBool("Cair", true);
+            Som.SomdeArvore.GetComponent<AudioSource>().Play();
         }
     }
 
