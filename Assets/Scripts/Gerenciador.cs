@@ -9,6 +9,9 @@ public class Gerenciador : MonoBehaviour
     //public Controlador controlador;
     public GameObject TelaGameOver;
     public GameObject TelaVitoria;
+    public GameObject TelaConquista;
+    public GameObject TelaConquistaBolinha;
+    
     
 
     public void Vitoria()
@@ -60,5 +63,15 @@ public class Gerenciador : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-    
+
+    public void AtivaConquistaBolinha()
+    {
+        TelaConquistaBolinha.SetActive(true);
+        StartCoroutine("DesativaConquista",TelaConquistaBolinha);
+    }
+
+    IEnumerator DesativaConquista(GameObject panel) {
+        yield return new WaitForSeconds(5);
+        panel.SetActive(false);
+    }
 }

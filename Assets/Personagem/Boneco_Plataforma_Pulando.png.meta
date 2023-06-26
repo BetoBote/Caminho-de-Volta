@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: ebb5805eea7562e48b2b4e9beda55178
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 645
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6b4b963874278469a735b4b58fe553
+      internalID: -1833665022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_1
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 4
+        width: 359
+        height: 638
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8366527d24c0abe408685eb899fc3301
+      internalID: 1246380211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_2
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 3
+        width: 364
+        height: 633
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf820da1b52e30d489eb7e1a809139cc
+      internalID: 616830111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_3
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 3
+        width: 377
+        height: 621
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad632b7fd8dea748a9eff748cb5a719
+      internalID: -1685628483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_4
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 4
+        width: 382
+        height: 614
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d74b087093eb9047bf6d0f7420fb8bf
+      internalID: 1497223574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_5
+      rect:
+        serializedVersion: 2
+        x: 3055
+        y: 3
+        width: 376
+        height: 621
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4127233f7cfe1044a9018a0c014103e2
+      internalID: -1243213751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_6
+      rect:
+        serializedVersion: 2
+        x: 3685
+        y: 3
+        width: 359
+        height: 633
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f54497fc66fddb4aae806e10568dfb2
+      internalID: 1715350922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_7
+      rect:
+        serializedVersion: 2
+        x: 4298
+        y: 9
+        width: 359
+        height: 633
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd81d274640519e44b18e34a9b8b0e4d
+      internalID: -1480697532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_8
+      rect:
+        serializedVersion: 2
+        x: 4916
+        y: 0
+        width: 359
+        height: 645
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa10e85287982534da0f7186481c3c7c
+      internalID: 642233166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_9
+      rect:
+        serializedVersion: 2
+        x: 5523
+        y: 0
+        width: 359
+        height: 645
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c061c7fefbe22047bc8860ca34088f8
+      internalID: 1783256417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_10
+      rect:
+        serializedVersion: 2
+        x: 6153
+        y: 0
+        width: 330
+        height: 645
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d00782e5b27a7441ac37c3b2d40203c
+      internalID: 2076778823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_11
+      rect:
+        serializedVersion: 2
+        x: 6766
+        y: 0
+        width: 342
+        height: 645
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05abed280f826bb48a44fa39062fc44c
+      internalID: -898036408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_12
+      rect:
+        serializedVersion: 2
+        x: 7379
+        y: 0
+        width: 335
+        height: 645
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f3ed214fbeaf349b2bb119a5ac8459
+      internalID: 1786813051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_13
+      rect:
+        serializedVersion: 2
+        x: 7956
+        y: 21
+        width: 359
+        height: 621
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b047661cab596146a2d506241efe991
+      internalID: -1337233685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_14
+      rect:
+        serializedVersion: 2
+        x: 8569
+        y: 3
+        width: 359
+        height: 633
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759b032b157349f489ed30c4b11b34c6
+      internalID: 1969612281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_15
+      rect:
+        serializedVersion: 2
+        x: 9223
+        y: 0
+        width: 382
+        height: 645
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45002971962a6244c9ecce214855633e
+      internalID: 554067797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_16
+      rect:
+        serializedVersion: 2
+        x: 9818
+        y: 9
+        width: 377
+        height: 615
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94cb34ea3621dc4a9e0934c19eb891d
+      internalID: 1136848571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_17
+      rect:
+        serializedVersion: 2
+        x: 10466
+        y: 3
+        width: 359
+        height: 633
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cb688ac1cb2a541af82f923a125a7e
+      internalID: 656134153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_18
+      rect:
+        serializedVersion: 2
+        x: 11078
+        y: 9
+        width: 360
+        height: 633
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6348b5ab4089ce24baabbc8034808d2e
+      internalID: 1489194438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco_Plataforma_Pulando_19
+      rect:
+        serializedVersion: 2
+        x: 11715
+        y: 0
+        width: 350
+        height: 645
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b5cbf69a0962940b3301db8cb19d2a
+      internalID: 1026388836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Boneco_Plataforma_Pulando_17: 656134153
+      Boneco_Plataforma_Pulando_11: -898036408
+      Boneco_Plataforma_Pulando_10: 2076778823
+      Boneco_Plataforma_Pulando_16: 1136848571
+      Boneco_Plataforma_Pulando_2: 616830111
+      Boneco_Plataforma_Pulando_19: 1026388836
+      Boneco_Plataforma_Pulando_18: 1489194438
+      Boneco_Plataforma_Pulando_7: -1480697532
+      Boneco_Plataforma_Pulando_4: 1497223574
+      Boneco_Plataforma_Pulando_3: -1685628483
+      Boneco_Plataforma_Pulando_8: 642233166
+      Boneco_Plataforma_Pulando_1: 1246380211
+      Boneco_Plataforma_Pulando_13: -1337233685
+      Boneco_Plataforma_Pulando_0: -1833665022
+      Boneco_Plataforma_Pulando_15: 554067797
+      Boneco_Plataforma_Pulando_14: 1969612281
+      Boneco_Plataforma_Pulando_5: -1243213751
+      Boneco_Plataforma_Pulando_9: 1783256417
+      Boneco_Plataforma_Pulando_12: 1786813051
+      Boneco_Plataforma_Pulando_6: 1715350922
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

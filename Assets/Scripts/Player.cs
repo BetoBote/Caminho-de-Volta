@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     private Animator animacao;
     public GerenciadorDeSom Som;
     //public Vector3 posInicial;
-
+    public GameObject botaoPowerUp;
     
     
     
@@ -96,7 +96,7 @@ public class Player : MonoBehaviour
 
 
 
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.F))
         {
             velFinal = Velocidade * 2;
             animacao.SetBool("Correndo", true);
@@ -179,7 +179,8 @@ public class Player : MonoBehaviour
                 pode_dano = false;
                 vida--;
                 Dano();
-                
+                botaoPowerUp.SetActive(false);
+
 
 
 
@@ -202,7 +203,7 @@ public class Player : MonoBehaviour
             Som.powerUp.GetComponent<AudioSource>().Play();
             puloMax = 2;
             Destroy(gatilho.gameObject);
-            animacao.SetBool("PowerUp", true);
+            botaoPowerUp.SetActive(true);
             
         }
        
@@ -220,6 +221,10 @@ public class Player : MonoBehaviour
             Destroy(gatilho.gameObject);
             bolinhas++;
             Bolinhas_text.text = bolinhas.ToString();
+            if(bolinhas >= 5)
+            {
+                GJ.AtivaConquistaBolinha();
+            }
         }
 
         if (gatilho.gameObject.tag == "Vagalume")
@@ -234,6 +239,7 @@ public class Player : MonoBehaviour
         {
             GJ.Vitoria();
         }
+        
         
     }
     void TemporizadorPulo()
@@ -272,8 +278,9 @@ public class Player : MonoBehaviour
                 pode_dano = false;
                 vida--;
                 Dano();
-                
-                
+                botaoPowerUp.SetActive(false);
+
+
 
 
 
