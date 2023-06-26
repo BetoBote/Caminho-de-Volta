@@ -233,11 +233,31 @@ public class Player : MonoBehaviour
             Destroy(gatilho.gameObject);
             vagalumes++;
             Vagalume_text.text = vagalumes.ToString();
+            if(vagalumes >= 3)
+            {
+                GJ.AtivaConquistaVagalume();
+            }
         }
         
         if(gatilho.gameObject.tag == "Vitoria")
         {
             GJ.Vitoria();
+            if(vida >= 5)
+            {
+                GJ.AtivaConquistaVidaMaxima();
+                GJ.AtivouCq2();
+
+            }
+            if(bolinhas >= 5)
+            {
+                GJ.AtivouCq1();
+            }
+            if(vagalumes >= 3)
+            {
+                GJ.AtivouCq3();
+            }
+            
+            
         }
         
         
@@ -305,7 +325,7 @@ public class Player : MonoBehaviour
 
         if (colisao.gameObject.tag == "Mola")
         {
-            Debug.LogWarning("Molinha");
+            
             Corpo.AddForce(Vector2.up * 1000f);
         }
     }

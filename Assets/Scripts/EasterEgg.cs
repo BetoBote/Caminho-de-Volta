@@ -8,10 +8,11 @@ public class EasterEgg : MonoBehaviour
 
     public GameObject conquistas;
     public GameObject conquistaBolinha;
+    public Gerenciador GJ;
     
     void Start()
     {
-        
+        GJ = GameObject.FindGameObjectWithTag("GameController").GetComponent<Gerenciador>();
     }
 
     public void Abre()
@@ -20,8 +21,9 @@ public class EasterEgg : MonoBehaviour
             conquistas.SetActive(true);
             jaConquistou = true;
             StartCoroutine("DesativarPanel");
+            GJ.AtivouCq4();
         }
-
+        
 
     }
 
