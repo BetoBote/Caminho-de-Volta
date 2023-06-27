@@ -21,6 +21,7 @@ public class Gerenciador : MonoBehaviour
     public GameObject CqGame04;
     public GameObject CqGame05;
     public float meuTempo = 0;
+    public Text txtMeuTempo;
 
 
 
@@ -28,6 +29,10 @@ public class Gerenciador : MonoBehaviour
     {
         GameLigado = false;
         TelaVitoria.SetActive(true);
+        if(meuTempo <= 60)
+        {
+            AtivouCq5();
+        }
     }
     void Start()
     {
@@ -42,6 +47,11 @@ public class Gerenciador : MonoBehaviour
         {
             Time.timeScale = 1;
             meuTempo += Time.deltaTime;
+            float seg = Mathf.FloorToInt(meuTempo % 60);
+            float min = Mathf.FloorToInt(meuTempo / 60);
+            float mili = (int)(meuTempo * 1000f) % 1000;
+            txtMeuTempo.text = string.Format("{0:00}:{1:00}:{2:000}", min, seg, mili);
+
         }
     }
 
