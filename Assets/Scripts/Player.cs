@@ -180,6 +180,7 @@ public class Player : MonoBehaviour
                 vida--;
                 Dano();
                 botaoPowerUp.SetActive(false);
+                Som.SomDamage.GetComponent<AudioSource>().Play();
 
 
 
@@ -299,6 +300,7 @@ public class Player : MonoBehaviour
                 vida--;
                 Dano();
                 botaoPowerUp.SetActive(false);
+                Som.SomDamage.GetComponent<AudioSource>().Play();
 
 
 
@@ -325,7 +327,7 @@ public class Player : MonoBehaviour
 
         if (colisao.gameObject.tag == "Mola")
         {
-            
+            Som.SomDeMola.GetComponent<AudioSource>().Play();
             Corpo.AddForce(Vector2.up * 1000f);
         }
     }

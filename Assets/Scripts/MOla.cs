@@ -5,6 +5,7 @@ using UnityEngine;
 public class MOla : MonoBehaviour
 {
     public Animator animacao;
+    public GerenciadorDeSom som;
 
     void Start()
     {
@@ -21,7 +22,9 @@ public class MOla : MonoBehaviour
     {
         if (colisao.gameObject.tag == "Player")
         {
+            
             animacao.SetBool("Mola", true);
+            
         }
     }
     private void OnCollisionExit2D(Collision2D colisao)
