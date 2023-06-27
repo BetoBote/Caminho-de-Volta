@@ -15,6 +15,7 @@ public class Gerenciador : MonoBehaviour
     public GameObject TelaConquistaVagalume;
     public GameObject TelaConquistaVidaMaxima;
     public GameObject TelaConquistaTempoRecorde;
+    public GameObject TelaConfigurações;
     public GameObject CqGame01;
     public GameObject CqGame02;
     public GameObject CqGame03;
@@ -153,4 +154,15 @@ public class Gerenciador : MonoBehaviour
 
     }
 
+    public void AbrirOpcoes()
+    {
+        TelaConfigurações.SetActive(true);
+    }
+
+    public void FecharOpcoes()
+    {
+        TelaConfigurações.SetActive(false);
+    }
+
+    
 }

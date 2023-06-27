@@ -36,4 +36,9 @@ public class GerenciadorDeSom : MonoBehaviour
     {
         
     }
+
+    public void VolumeMusica(float value)
+    {
+        somdeFundo.volume = value;
+    }
 }
