@@ -16,6 +16,7 @@ public class Gerenciador : MonoBehaviour
     public GameObject TelaConquistaVidaMaxima;
     public GameObject TelaConquistaTempoRecorde;
     public GameObject TelaConfigurações;
+    public GameObject TelaCreditos;
     public GameObject CqGame01;
     public GameObject CqGame02;
     public GameObject CqGame03;
@@ -164,5 +165,21 @@ public class Gerenciador : MonoBehaviour
         TelaConfigurações.SetActive(false);
     }
 
-    
+    public void AbrirCreditos()
+    {
+        TelaCreditos.SetActive(true);
+    }
+
+    public void FecharCreditos()
+    {
+        TelaCreditos.SetActive(false);
+    }
+
+    public void SairJogo()
+    {
+        
+        Application.Quit();
+    }
+
+
 }

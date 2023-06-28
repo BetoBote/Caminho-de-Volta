@@ -299,7 +299,7 @@ public class Player : MonoBehaviour
                 pode_dano = false;
                 vida--;
                 Dano();
-                botaoPowerUp.SetActive(false);
+                
                 Som.SomDamage.GetComponent<AudioSource>().Play();
 
 
